@@ -1,0 +1,45 @@
+reverb
+{
+	{ 0 Mountains }
+	{ 1 Mountains }
+	{ 2 Hallway }
+	{ 3 Hallway }
+	{ 4 Mountains }
+	{ 5 Hallway }
+	{ 6 Sewerpipe }
+	{ 7 Sewerpipe }
+	{ 8 Hallway }
+	{ 9 Mountains }
+	{ 10 Mountains }
+	{ 11 Mountains }
+	{ 12 Mountains }
+	{ 13 Mountains }
+	{ 14 Mountains }
+	{ 15 Sewerpipe }
+	{ 16 Hallway }
+	{ 17 Hallway }
+	{ 18 Hallway }
+	{ 19 Mountains }
+	{ 20 Hallway }
+	{ 21 Mountains }
+	{ 22 Sewerpipe }
+	{ 23 Mountains }
+	{ 24 Mountains }
+	{ 25 Mountains }
+	{ 26 Mountains }
+	{ 27 Hallway }
+	{ 28 Sewerpipe }
+	{ 29 Generic }
+	{ 30 Mountains }
+	{ 31 Hallway }
+	{ 32 Hallway }
+	{ 33 Mountains }
+	{ 34 Hallway }
+	{ 35 Mountains }
+	{ 36 Generic }
+	{ 37 Mountains }
+	{ 38 Hallway }
+	{ 39 Hallway }
+	{ 40 Mountains }
+	{ 41 Hallway }
+}
