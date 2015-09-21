@@ -1,0 +1,89 @@
+// Added by nick
+models/mapobjects/q4x/race_light01/race_light01
+{
+	diffusemap 			models/mapobjects/q4x/race_light01/race_light01_d.tga
+    	bumpmap				models/mapobjects/q4x/race_light01/race_light01_local.tga
+	specularmap 			models/mapobjects/q4x/race_light01/race_light01_s.tga
+
+	{
+		blend add
+		map models/mapobjects/q4x/race_light01/race_light01_add.tga
+
+	}
+}
+
+models/mapobjects/q4x/cryotubebase/cryotubebase_d
+
+{
+
+//unSmoothedTangents
+
+	//qer_editorimage mapobjects/q4x_cryo/cryodoor01_d.tga
+
+	diffusemap 		models/mapobjects/q4x/cryotubebase/cryotubebase_d.tga
+    bumpmap			models/mapobjects/q4x/cryotubebase/cryotubebase_local.tga
+	specularmap 	models/mapobjects/q4x/cryotubebase/cryotubebase_s.tga
+
+}
+
+
+
+textures/q4x_mptextures/rit_dm_sand_to_sharprock
+{
+	noselfshadow
+     	materialType rock     
+    	{
+		blend		bumpmap
+		map		textures/rock/sand01_local.tga
+	}
+	{
+		blend 		diffusemap
+		map		textures/rock/sand01_d.tga
+		vertexColor
+	}
+	{
+		blend		bumpmap
+		map		textures/rock/sharprock_local.tga
+	}
+	{
+		blend		diffusemap
+		map		textures/rock/sharprock01_brown_d.tga
+		inverseVertexColor
+	}
+}
+
+textures/q4x_mptextures/rit_sharprock
+{
+	qer_EditorImage		textures/rock/sharprock
+	noselfshadow
+	materialType rock
+	bumpmap				addnormals (textures/rock/sharprock_local, heightmap (textures/rock/newdarkrock_bmp.tga, 10) ) 
+	diffusemap			textures/rock/sharprock
+	specularmap			textures/rock/sharprock_s
+}
+
+models/mapobjects/q4x/cryo_hangingman/cryohangingman
+{
+		noselfshadow
+		//unsmoothedtangents
+				
+		diffusemap 		models/mapobjects/q4x/cryo_hangingman/cryohangingman_d.tga
+	   	bumpmap			models/mapobjects/q4x/cryo_hangingman/cryohangingman_local.tga
+		specularmap 	models/mapobjects/q4x/cryo_hangingman/cryohangingman_s.tga
+	
+}
+
+models/mapobjects/q4x/cryo_hangingman/cryohangingmanhose
+{
+		noselfshadow
+		//unsmoothedtangents
+				
+		diffusemap 		models/mapobjects/q4x/cryo_hangingman/cryohangingmanhose_d.tga
+	   	bumpmap			models/mapobjects/q4x/cryo_hangingman/cryohangingmanhose_local.tga
+		specularmap 	models/mapobjects/q4x/cryo_hangingman/cryohangingmanhose_s.tga
+		{
+		blend add 
+		map				models/mapobjects/q4x/cryo_hangingman/cryohangingmanhose_add.tga
+		rgb 	 		(1 * random [.02 * time ]) + 0.7
+		}
+}

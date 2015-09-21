@@ -1,0 +1,408 @@
+
+
+sound ambient_tram_ambience01
+{
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+	looping
+
+	sound/ambience/tram/tram_ambience01.wav
+	shakeData 0 llmmlnjfjkmkpmiljhlkigfjigikknmggiggjigiiikniihjieijjjnjhfhhggfifhhihhokjgghjkjigekflghhgjmjjhhffekjkfeighffjikdhgigjlijjfijlklfmgjjhkihkjkgigijnliijjpihllhhfhkigfhfikmjliqokklllnkjmmjllhhglhekijkkmlpkk
+}
+
+
+sound ambient_tram_cave_wind01
+{
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+	looping
+
+	sound/ambience/tram/tram_cavewind01.wav
+	shakeData 0 kjmkjlmmojjllljknjmklkljkijkkkiljjllmoljmkimklkjkljmljkllkjnmlkljjlkjikklkkililkkjnlkkolklkmkmmjnlmnolopllkmllnnoporknnnlkqomnmlnlqnpmoonnnsnoqnoopoppmnnmqolmnmpnmlsomurmqnmnmmormprlmmmpqmnqmotomoommokmpnnolmnmqoonmtmmlommmomknkmonploompnnnlnlnomlkmonlmklllminkollknllnklljklliinlpjkkllkllklmlkokkmmjmkkhjjiknijljlkmikjillkkklljl
+}
+
+
+sound ambient_tram_cave_wind02
+{
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+	looping
+
+	sound/ambience/tram/tram_cavewind02.wav
+	shakeData 0 oplqronsoqotrssqponmoqqqstntssrqmonyollokknnnmplkkkkmkknmljikimlmklkjlknlkjkkjlmhkjiihkkijikijjihijhjhjhhgkjiighhfgighehfffhggehhjjhfgffgggffefhfggigfhgfhgiihggegjfggghghghghgfhhgjihijiighhjkjhijihihilkjkjnllne
+}
+
+
+sound tram_platform_1_first_move
+{
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+
+	sound/ambience/tram/platform1/1_first_move.wav
+	shakeData 0 foporqrnsvrpstxwqpvsprnqvottusopjmnmiimgigonsnollknnmmjkjlklkkkkklkjkiiiikjigggggghghihhihhhghhiggggffeeffedeeeeedeeefffffefeeedddedeeefeeefeeeeedeeeeddededeeeeeeeeeeeeedddddddeefffffeedggqpllljkihfgeefeeddddcceedeecdccbbcbbbbbbbbabbaaababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound tram_platform_2_railings
+{
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+
+	sound/ambience/tram/platform1/2_railings.wav
+	shakeData 0 ccccccccccccccccccccccccccccccccccabbaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound tram_platform_3_1st_piece
+{
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+
+	sound/ambience/tram/platform1/3_1st_piece.wav
+	shakeData 0 aigjonkkohlomklnnnlomomnljikkmlkiijijiiljkkklokmnmlljlhkijlkplkmopnmklkkkikjjihiihkkllmklomnmmkmmmmjljkjjkjkkkjjjkmmlmnmfefgfffeeddccccbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound tram_platform_4_2nd_piece
+{
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+
+	sound/ambience/tram/platform1/4_2nd_piece.wav
+	shakeData 0 decdccccdffgjfffgghhhgfedeggfefdddefeddddeefffffeeeffffeeddddddeddddcdcccccccccccccdccbccccbccbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound tram_platform_5_base
+{
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+
+	sound/ambience/tram/platform1/5_base.wav
+	shakeData 0 aehhhffgiggegfefeefflkjknjqqmjjkmkkkhmjllkhkinjhffehgknljjhgfgggffgfeffhhhggghgffegfeeedeeffeeeffggfeddcdddegggggffeeeefeeeeefgggghgggfeeglmmnlluuvoqopknrnjikhlojkkjpkjnqooqljnklkjhhqphopvrnnmlhghijiifejlfioigfgddegfeefcfgfcedcddccccbccbbcbaaabbbaabaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound tram_platform_6_plat_move1
+{
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+
+	sound/ambience/tram/platform1/6_plat_move1.wav
+	shakeData 0 iifggghgghggghghgfghihhhgfgeffffegffhhggggfhhhghhhigfhhhgiidfgikjiiiggceegdddgefefdddcdcdccdcbbbaaaaaa
+}
+
+
+sound tram_platform_7_arms
+{
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+
+	sound/ambience/tram/platform1/7_arms.wav
+	shakeData 0 ighhhhhigjiggffffhghhhhighijljgfeeedccbbbbbbbaaaaaaaaaaaaaaaa
+}
+
+
+sound tram_platform_8_plat_move2
+{
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+
+	sound/ambience/tram/platform1/8_plat_move2.wav
+	shakeData 0 aabccdeeeegggpqknkjjffhgfkgekjgdhggefggffhhhgfghffgffehihkjjihjjjghhffgffgiigjkiffdhjmoonnljjjjjjjjjmljhhdiifjjgfiiigmlkhfijfixwtoqkjhhghfhfeedfgefdeddccbbbcbcbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound tram_platform_9_plat_move3
+{
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+
+	sound/ambience/tram/platform1/9_plat_move3.wav
+	shakeData 0 aaabcdcdcdefffnqnikmmgghghhddghfedjggdghdegfggfgeihggfcgegfccdgghhhhiihgiiijihgijkkkmmjgggegggghghiiihihhegiidghhmmxrnmkkljjkhghfeedccccdcbbccbbbaabbaaaaaaaaaaaaa
+}
+
+
+sound tram_crusher
+{
+	minDistance	80
+	maxDistance	1200
+	volumeDb	4
+	shakes		0.5
+
+	sound/ambience/tram/crusher.wav
+	shakeData 0 zyyzyonmomnoqjnnihfeddeddfeecbbaa
+}
+
+
+sound tram_turret_unfold
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/turrets/unfold.wav
+	shakeData 0 kvzzzzzzyxxxuokoqmfddcbbbaaaaaaaaaaaa
+}
+
+
+sound tram_bridge_pillar1
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge/pillar1.wav
+	shakeData 0 iimxxrusprwwusvtwvvuwsvvtutqqsnlhffedccbaaaa
+}
+
+
+sound tram_bridge_pillar2
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge/pillar2.wav
+	shakeData 0 svvuruwyzxvxwyxwtrqmjiiihiijigfhgfgghhgdaaaaaaaaaa
+}
+
+
+sound tram_bridge_pillar3
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge/pillar3.wav
+	shakeData 0 aaowvuuvxwwttsrwxvvtsvvtvtwxqstrqnlihffedccbbaaaa
+}
+
+
+sound tram_bridge_wings1
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge/wings1.wav
+	shakeData 0 aipzyxspnopompntoqqloolmlqllhgcdcbbbaaaaaaa
+}
+
+
+sound tram_bridge_wings2
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge/wings2.wav
+	shakeData 0 mlzuuyxrwusrooplnpojihhgifdddcccbbbaaaaaaaa
+}
+
+
+sound tram_bridge_wings3
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge/wings3.wav
+	shakeData 0 fwwyvwxxvvquxsrtsywvvsrtvwsyreccbbaaaaaaa
+}
+
+
+sound tram_bridge2_metal_flaps
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge/wings1.wav
+	shakeData 0 aipzyxspnopompntoqqloolmlqllhgcdcbbbaaaaaaa
+}
+
+
+sound tram_bridge2_main_piece_move
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge2/main_piece_move.wav
+	shakeData 0 aalvtwposlljjokjikjkjjljiigrhiiijvvmnkheddccbbbaaaaa
+}
+
+
+sound tram_bridge2_snap
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge2/snap.wav
+	shakeData 0 mllxwyuuysospoqptsnssmknkljhgghfeddddcbbaaaa
+}
+
+
+sound tram_bridge2_flap
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge/wings2.wav
+	shakeData 0 mlzuuyxrwusrooplnpojihhgifdddcccbbbaaaaaaaa
+}
+
+
+sound tram_bridge2_lip_piece
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge2/lip_piece.wav
+	shakeData 0 efipnonjiihihihhjikjkkijikjkjijiiljhjlkspheba
+}
+
+
+sound tram_bridge2_ramp
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/bridge2/ramp.wav
+	shakeData 0 vysvvprrnlmoknnmklljknnnqrmqqnknxxonmolnigjggjfhiebaaa
+}
+
+
+sound tram_building_hit
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+	shakes		0.1
+	global
+
+	sound/ambience/tram/explosions/building_hit1.wav
+	shakeData 0 prurtrtrqupouonrqnpmmmnsrnqqpqmmstpnnoomknjqmmnolpnnkiljpmjnoihjmnqjopooknmgjklihmpnffekeddghdecddeddccbbcbbbcbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	sound/ambience/tram/explosions/building_hit1.wav
+	shakeData 1 prurtrtrqupouonrqnpmmmnsrnqqpqmmstpnnoomknjqmmnolpnnkiljpmjnoihjmnqjopooknmgjklihmpnffekeddghdecddeddccbbcbbbcbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	sound/ambience/tram/explosions/building_hit1.wav
+	shakeData 2 prurtrtrqupouonrqnpmmmnsrnqqpqmmstpnnoomknjqmmnolpnnkiljpmjnoihjmnqjopooknmgjklihmpnffekeddghdecddeddccbbcbbbcbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound tram_air_raid
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+	looping
+
+	sound/ambience/tram/alarms/air_raid.wav
+	shakeData 0 klmnrpqtqspponoprtuqqppuvoqsoppknooluomonlnmlmnllllfiijjjfhjjljgffggfffefgeeighjgjlikjiiklmkjjljlnjlllkikjllmomlnmkjg
+}
+
+
+sound tram_malfunction_alarm
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+	looping
+
+	sound/ambience/tram/alarms/malfunction_alarm.wav
+	shakeData 0 bgmxyxnjbcijkoomabgmmlnnfbclsxxnma
+}
+
+
+sound tram_repair_complete
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/alarms/repair_complete.wav
+	shakeData 0 lnnopqqrwwwvvvwwwwwwvvxxxxwtpqoonlggdcbbabaaaaaaaaaaaaa
+}
+
+
+sound tram_hub_complete
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+
+	sound/ambience/tram/alarms/hub_complete.wav
+	shakeData 0 ceghjklmnmmmmmmmmmmmmnnmmmmmmmmmnmmheba
+}
+
+
+sound tram_hub_sequence
+{
+	minDistance	400
+	maxDistance	4000
+	volumeDb	0
+	shakes		0.1
+
+	sound/ambience/tram/hub_sequence.wav
+	shakeData 0 pywxuwwvywvustxuwssprnvwsotrornrpqrywotywywttqpptrqumoonnnoprqpmoooppmlmlknkmllkjiijhjihhhhyyjiffedddddddddcddddcbbbbbbbbbbbbbbbbaaaaabbaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound tram_track_malfunction
+{
+	minDistance	200
+	maxDistance	1200
+	volumeDb	0
+	looping
+
+	sound/ambience/tram/track_malfunction.wav
+	shakeData 0 mkgiklkiiikjjgkjhgjjlokmmhkijjqjloliijnlhkhijiijkjlkmlmmnolmmnollkklmmoprpllkmqqokhfmhffeffgghijikliliiiihkihhhiggggghhhhfgiggkgfgggggggggiiijlllrklmllqonmtnpkmmmgfmhgjhhmklnnrqvptrsxrutm
+}
+
+sound tram_tramcar_explode1
+{
+	minDistance	585
+	maxDistance	2340
+	volumeDb	0
+	global
+
+	sound/weapons/grenade/explode1
+	shakeData 0 zzzsxvyqnnlkmmltijggolihklirnlnkjjjkihjhjigffedddccbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	sound/weapons/grenade/explode2
+	shakeData 1 yzmnstutsqnlolonhimhkhghfghpljmlihkhghjgggfffeecdbcbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	sound/weapons/grenade/explode3
+	shakeData 2 zyyvvyxwwsutommhfghhiggfefgkhhigfdedddcdccbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	sound/weapons/grenade/explode4
+	shakeData 3 zzsxpvywvwropijjkhkkikhjlmpmjkklkjkiihhgffhfgeddcccbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+sound tram_tramcar_explode2
+{
+	minDistance	400
+	maxDistance	2000
+	volumeDb	-6
+	soundClass	1
+	global
+	no_shakes
+
+	sound/effects/explosions/metal01
+	sound/effects/explosions/metal02
+	sound/effects/explosions/metal03
+}

@@ -1,0 +1,537 @@
+models/weapons/napalmgun/flamegun_main
+{
+	noSelfShadow
+
+	diffusemap 	models/weapons/napalmgun/flamegun_main_d.tga
+	bumpmap		models/weapons/napalmgun/flamegun_main_local.tga
+	specularmap 	models/weapons/napalmgun/flamegun_main_s.tga
+
+	{
+		blend  add
+		map 			models/weapons/napalmgun/flamegun_main_add.tga
+		red				(.25 * sintable [.5 * time ]) +1
+	}
+}
+
+models/weapons/napalmgun/flamegun_cannister
+{
+	noSelfShadow
+
+	diffusemap 	models/weapons/napalmgun/flamegun_cannister_d.tga
+	bumpmap		models/weapons/napalmgun/flamegun_cannister_local.tga
+	specularmap 	models/weapons/napalmgun/flamegun_cannister_s.tga
+}
+
+models/weapons/napalmgun/flamegun_tube
+{
+	noSelfShadow
+
+	diffusemap 	models/weapons/napalmgun/flamegun_tube_d.tga
+	bumpmap		models/weapons/napalmgun/flamegun_tube_local.tga
+	specularmap 	models/weapons/napalmgun/flamegun_tube_s.tga
+}
+
+models/weapons/napalmgun/flamegun_glass
+{
+	translucent
+	twosided
+	noSelfShadow
+
+	diffusemap 	models/weapons/napalmgun/flamegun_glass_d.tga
+	specularmap 	models/weapons/napalmgun/flamegun_glass_s.tga
+
+	{
+		blend		gl_src_color, gl_one
+		texgen		reflect
+		cubeMap 	gfx/env/marhelmet
+	}
+}
+
+models/weapons/napalmgun/flame_juice
+{
+	noSelfShadow
+	noShadows
+
+	{	
+		blend blend
+		map 					models/weapons/napalmgun/flame_juice.tga
+		scale 0.8, 1.0
+		scroll time * -0.05, time * -0.05
+		green (.5 * sintable [.01 * time ]) +1
+		blue  (.5 * cosine [.01 * time ]) +1
+	}
+	{
+		blend add
+		map 					models/weapons/napalmgun/flame_juice.tga
+		scale 0.5, 0.5
+		scroll  time * -.005, time * -.005
+		rotate  time * 0.0005
+		green (.35 * sintable [.03 * time ]) +1 
+		blue  (.35 * sintable [.03 * time ]) +1 
+	}
+	{
+		blend add
+		map 					models/weapons/napalmgun/flame_juice02.tga
+		scale 1.0, 1.0
+		scroll  sintable[time * .002], sintable[time * .002]
+		rotate  time * -0.0005
+		green (1 * cosine [.05 * time ]) +1 
+		blue  (1 * cosine [.005 * time ]) +1 
+		red   (1 * cosine [.05 * time ]) +1 
+	}	
+}
+
+models/weapons/napalmgun/flame_glob
+{
+	noSelfShadow
+	noShadows
+	deform expand (1* random [.01 * time ]) +1
+
+	{	
+		blend blend
+		map 					models/weapons/napalmgun/flame_juice.tga
+		scale 0.8, 1.0
+		scroll time * -0.5, time * -0.5
+	}
+	{
+		blend add
+		map 					models/weapons/napalmgun/flame_juice02.tga
+		scale 0.5, 0.5
+		scroll  time * .5, time * .5
+		rotate  time * 0.0005
+	}
+	{
+		blend add
+		map 					models/weapons/napalmgun/flame_juice02.tga
+		scale 1.0, 1.0
+		scroll  time * -.2, time * -.2
+		rotate  time * -0.075
+	}
+}
+
+models/weapons/napalmgun/flame_glob2
+{
+	noSelfShadow
+	noShadows
+	deform move 5*sintable[time*0.5]
+
+	{	
+		blend blend
+		map 					models/weapons/napalmgun/flame_juice.tga
+		scale 0.8, 1.0
+		scroll time * -0.5, time * -0.5
+	}
+	{
+		blend add
+		map 					models/weapons/napalmgun/flame_juice02.tga
+		scale 0.5, 0.5
+		scroll  time * .5, time * .5
+		rotate  time * 0.0005
+		green (.35 * sintable [.03 * time ]) +1 
+		blue  (.35 * sintable [.03 * time ]) +1 
+	}
+	{
+		blend add
+		map 					models/weapons/napalmgun/flame_juice02.tga
+		scale 1.0, 1.0
+		scroll  time * -.2, time * -.2
+		rotate  time * -0.075
+		
+	}
+}
+
+models/weapons/napalmgun/flame_glob3
+{
+	noSelfShadow
+	noShadows
+	deform move 1*random[time*0.009]
+
+	{	
+		blend blend
+		map 					models/weapons/napalmgun/flame_juice.tga
+		scale 0.8, 1.0
+		scroll time * -0.5, time * -0.5
+	}
+	{
+		blend add
+		map 					models/weapons/napalmgun/flame_juice02.tga
+		scale 0.5, 0.5
+		scroll  time * .5, time * .5
+		rotate  time * 0.0005
+	}
+	{
+		blend add
+		map 					models/weapons/napalmgun/flame_juice02.tga
+		scale 1.0, 1.0
+		scroll  time * -.2, time * -.2
+		rotate  time * -0.075
+	}
+}
+
+models/weapons/napalmgun/w_flamegun
+
+{
+	diffusemap 	models/weapons/napalmgun/w_flamegun_d.tga
+	bumpmap		models/weapons/napalmgun/w_flamegun_local.tga
+	specularmap 	models/weapons/napalmgun/w_flamegun_s.tga
+
+	{
+		blend  add
+		map 			models/weapons/napalmgun/w_flamegun_add.tga
+		red				(.25 * sintable [.5 * time ]) +1
+		green			(.1 * sintable [.5 * time ]) +1
+		blue			(.1 * sintable [.5 * time ]) +1
+	}
+	{
+		maskColor
+		map makealpha(models/weapons/napalmgun/w_flamegun_glowmask.tga)
+		
+	}	
+	{
+		blend	GL_DST_ALPHA, GL_ONE
+	 	maskAlpha
+		map models/weapons/napalmgun/w_flamegun_glow.tga
+		scroll time * .25, time * .25
+	}
+	{
+		blend		GL_DST_ALPHA, gl_one
+		maskAlpha
+		texgen		reflect
+		cubeMap 	gfx/env/marhelmet
+		scale       .25, .25
+	}	
+}
+
+gfx/effects/fire/fireburst
+{
+	noShadows
+	nonSolid
+	translucent
+	twosided
+        {
+		blend	add
+		map 	gfx/effects/fire/fireburst.tga
+		vertexColor
+        }
+}
+
+gfx/effects/smoke/basic
+{
+	noShadows
+	nonSolid
+	translucent
+	twosided
+        {
+		blend	add
+		map 	gfx/effects/smoke/basic.tga
+		vertexColor
+        }
+}
+
+gfx/effects/q4x/napalmgun_burn
+{
+	noShadows
+	nonSolid
+	translucent
+	twosided
+	{
+		videoMap loop 		textures/q4x_cryo/fireball01.roq
+		blend add
+		vertexColor
+	}
+}
+
+gfx/effects/fire/fire01
+{
+	noShadows
+	nonSolid
+	translucent
+	twosided
+        {
+		blend	add
+		map 	gfx/effects/fire/fire01.tga
+		vertexColor
+		}
+
+}
+
+gfx/effects/fire/fire02
+{
+	noShadows
+	nonSolid
+	translucent
+	twosided
+        {
+		blend	add
+		map 	gfx/effects/fire/fire02.tga
+		vertexColor
+		}
+
+}
+
+gfx/effects/fire/globfireglow
+{
+	noShadows
+	nonSolid
+	translucent
+	twosided
+        {
+		blend	add
+		map 	gfx/effects/fire/globfireglow.tga
+		vertexColor
+		rgb     (1 * random [.05 * time ]) +5
+		}
+
+}
+
+models/items/ammo/flamegun_holo
+{
+	noSelfShadow
+	unSmoothedTangents
+	translucent
+	twosided
+	
+	{
+		maskColor
+		map		makealpha (models/items/ammo/ammo_bubble.tga)
+		scroll		time * 0.1 , time * 0.15
+	}
+	{
+		blend GL_DST_ALPHA, GL_ONE
+		maskAlpha
+		map		models/items/ammo/ammo_box_wire.tga
+		colored
+		red		 1 * (ember1 [time *.25])
+		green	 0.45 * (ember1 [time *.25])
+		blue	 0 * (ember1 [time *.25])
+	}		
+}
+
+models/items/ammo/flamegun_decal
+{
+	DECAL_MACRO
+	
+	{
+		blend blend
+		map gfx/guis/hud/icons/item_fire
+		red .9
+		green 0.7
+		blue .2
+	}
+}
+
+models/items/ammo/flamegun
+{
+	noselfShadow
+	unsmoothedtangents
+
+	bumpmap		addnormals (models/items/ammo/ammo_box_local.tga, heightmap(models/items/ammo/ammo_box_h.tga, 2))
+	specularmap	models/items/ammo/ammo_box_s.tga
+
+	{
+		blend	diffusemap
+		map		models/items/ammo/ammo_box_machinegun_d.tga
+	
+	}
+	
+	{
+		blend		add
+		map			models/items/ammo/ammo_box_glow.tga
+			colored
+		red		 .7
+		green	 .35
+		blue	 .1
+		
+	}		
+}
+
+
+table flamegoobnumber55 { { 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 } }
+table flamegoobnumber56 { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1 } }
+table flamegoobnumber57 { { 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0 } }
+
+
+table fire_topglow01 { { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0 } }
+table fire_topglow02 { { 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 } }
+table fire_topglow03 { { 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0 } }
+table fire_topglow04 { { 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0 } }
+table fire_topglow05 { { 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0 } }
+table fire_topglow06 { { 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 } }
+
+
+
+gfx/guis/weapons/napalmgun/fire_base01
+
+{
+	
+	noShadows
+	nonSolid
+	translucent
+	twoSided
+	{
+		blend add
+		map 	gfx/guis/weapons/napalmgun/fire_base01.tga
+		//vertexColor
+		rgb (0.15 * sintable [.5 * time ]) +1
+	}
+	{
+		maskColor
+		map makealpha(gfx/guis/weapons/napalmgun/fire_base01mask.tga)
+	}
+
+	{
+		blend	GL_DST_ALPHA, GL_ONE
+	 	maskAlpha
+		map gfx/guis/weapons/napalmgun/fire_glowbars.tga
+		scroll time * .15, time * 0
+	}	
+	/*{
+		maskColor
+		map makealpha(gfx/effects/q4x/models/airturret_flashmask.tga)
+		scroll time * -.25, time * -.25
+	}	
+	{
+		blend	GL_DST_ALPHA, GL_ONE
+	 	maskAlpha
+		map gfx/effects/q4x/models/airturret_gadd01b.tga
+		
+	}*/	
+	
+
+}
+
+
+gfx/guis/weapons/napalmgun/fire_basetext
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_basetext.tga
+		rgb (.25 * sintable [.5 * time ]) +1
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+	}
+}
+
+
+
+
+
+
+
+gfx/guis/weapons/napalmgun/fire_basenumbers
+{	
+	noShadows
+	translucent
+	{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_base55.tga
+		rgb (1 * flamegoobnumber55 [.03 * time ]) 
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+	}
+	{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_base56.tga
+		rgb (1 * flamegoobnumber56 [.03 * time ]) 
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+	}
+	{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_base57.tga
+		rgb (1 * flamegoobnumber57 [.03 * time ]) 
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+	}
+}
+
+
+gfx/guis/weapons/napalmgun/fire_topglow
+{	
+	noShadows
+	translucent
+		{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_topglow01.tga
+		rgb (1 * fire_topglow01 [.25 * time ]) 
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+		}
+		{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_topglow02.tga
+		rgb (1 * fire_topglow02 [.25 * time ]) 
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+		}
+		{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_topglow03.tga
+		rgb (1 * fire_topglow03 [.25 * time ]) 
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+		}
+		{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_topglow04.tga
+		rgb (1 * fire_topglow04 [.25 * time ]) 
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+		}
+		{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_topglow05.tga
+		rgb (1 * fire_topglow05 [.25 * time ]) 
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+		}
+	
+		{
+		blend add
+		Map gfx/guis/weapons/napalmgun/fire_topglow06.tga
+		rgb (1 * fire_topglow06 [.25 * time ]) 
+		//maskDepth
+		//colored
+		nopicmip
+		//linear
+		}
+}
+
+
+gfx/guis/hud/icons/item_fire_colored
+{	
+	noShadows
+	translucent
+	
+	{
+		blend blend
+		Map   gfx/guis/hud/icons/item_fire.tga
+		red 1
+		green .75
+		blue .25
+		alpha parm3
+	}
+}
+
+guide gfx/guis/hud/simpleicons/item_napalmgun icon_simple_colored( simpleicons/item_napalmgun, 1, 0.75, 0.25 )
+guide gfx/guis/hud/simpleicons/ammo_napalmgun icon_simple_colored( simpleicons/ammo_napalmgun, 1, 0.75, 0.25 )

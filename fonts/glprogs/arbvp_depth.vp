@@ -1,0 +1,29 @@
+!!ARBvp1.0
+OPTION ARB_position_invariant;
+
+# Author: Aurelio Reis
+# Description: Depth effect for Quake 4.
+# Ouput distance to verts (depth) to texture
+# unit 0 to be interpolated.
+
+
+####		Input			####
+
+####		Output			####
+OUTPUT	oTex0		= result.texcoord[0];
+OUTPUT	oTex1		= result.texcoord[1];
+
+####		Constants		####
+# program.local[0] - x = min dist, y = max dist, z = focus dist, w = focal length.
+TEMP	r0;
+
+####		Main			####
+
+DP4			r0.z, vertex.position, -state.matrix.modelview.row[2];
+
+MAD			oTex0.x, r0.z, program.local[0].y, -program.local[0].x;
+MOV			oTex0.yz, program.local[0].zzww;
+
+MOV			oTex1, vertex.texcoord[0];
+
+END

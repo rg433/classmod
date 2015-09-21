@@ -1,0 +1,301 @@
+
+
+sound network_guardian_stomp
+{
+	description	"clud!"
+
+	minDistance	196
+	maxDistance	3937
+	volumeDb	0
+	shakes		0.1
+	frequentlyused
+
+	sound/strogg/network_guardian/step1
+	shakeData 0 gyqnxtuyyuwuvwqptxrnpppqnjmkghglgifefcccddccbbbaaaaaaaaaaaaaaaaa
+	sound/strogg/network_guardian/step2
+	shakeData 1 lwysxrrpukjltlmmrvnuvumkkjmhgggiegcdeecbccbcbbbaaaaaaaaaaaaaaaaaa
+	sound/strogg/network_guardian/step3
+	shakeData 2 lytttxnxvsxtywqmvxqnppppkhkffggjehdefdcbbcbbbaaaaaaaaaaa
+}
+
+
+sound network_guardian_stomp_dirt
+{
+	description	"clud!"
+
+	minDistance	196
+	maxDistance	3937
+	volumeDb	0
+	shakes		0.1
+
+	sound/strogg/network_guardian/step1
+	shakeData 0 gyqnxtuyyuwuvwqptxrnpppqnjmkghglgifefcccddccbbbaaaaaaaaaaaaaaaaa
+	sound/strogg/network_guardian/step2
+	shakeData 1 lwysxrrpukjltlmmrvnuvumkkjmhgggiegcdeecbccbcbbbaaaaaaaaaaaaaaaaaa
+	sound/strogg/network_guardian/step3
+	shakeData 2 lytttxnxvsxtywqmvxqnppppkhkffggjehdefdcbbcbbbaaaaaaaaaaa
+}
+
+
+sound network_guardian_stomp_hollow_metal
+{
+	description	"clud!"
+
+	minDistance	196
+	maxDistance	3937
+	volumeDb	0
+	shakes		0.1
+
+	sound/strogg/network_guardian/step1
+	shakeData 0 gyqnxtuyyuwuvwqptxrnpppqnjmkghglgifefcccddccbbbaaaaaaaaaaaaaaaaa
+	sound/strogg/network_guardian/step2
+	shakeData 1 lwysxrrpukjltlmmrvnuvumkkjmhgggiegcdeecbccbcbbbaaaaaaaaaaaaaaaaaa
+	sound/strogg/network_guardian/step3
+	shakeData 2 lytttxnxvsxtywqmvxqnppppkhkffggjehdefdcbbcbbbaaaaaaaaaaa
+}
+
+
+sound network_guardian_stomp_water
+{
+	description	"clud!"
+
+	minDistance	196
+	maxDistance	3937
+	volumeDb	0
+	shakes		0.1
+
+	sound/strogg/network_guardian/step1
+	shakeData 0 gyqnxtuyyuwuvwqptxrnpppqnjmkghglgifefcccddccbbbaaaaaaaaaaaaaaaaa
+	sound/strogg/network_guardian/step2
+	shakeData 1 lwysxrrpukjltlmmrvnuvumkkjmhgggiegcdeecbccbcbbbaaaaaaaaaaaaaaaaaa
+	sound/strogg/network_guardian/step3
+	shakeData 2 lytttxnxvsxtywqmvxqnppppkhkffggjehdefdcbbcbbbaaaaaaaaaaa
+}
+
+sound network_guardian_stomp_attack
+{
+	description	"clud!"
+
+	minDistance	196
+	maxDistance	3937
+	volumeDb	0
+	shakes		0.1
+
+	sound/strogg/footsteps/huge/default1.wav
+	shakeData 0 syyyyyyyysqrtnjhfhedcbbaaaaaa
+	sound/strogg/footsteps/huge/default2.wav
+	shakeData 1 yyxysvsurusqujihifeccbaaaaaaa
+	sound/strogg/footsteps/huge/default3.wav
+	shakeData 2 cyyyyxywyytunokjkggdcccbaaaaaa
+	sound/strogg/footsteps/huge/default4.wav
+	shakeData 3 vyyyyyyyvyvrnmhghdddbbbaaaaa
+}
+
+sound network_guardian_body_land
+{
+	description	"clud!"
+
+	minDistance	196
+	maxDistance	3937
+	volumeDb	0
+	frequentlyused
+
+	sound/strogg/network_guardian/body_land
+	shakeData 0 atyttzzvrrwyzzywzzzzzzzzzzzzywutrkqqotmkmomhgffecccbbaaa
+}
+
+
+sound network_guardian_metal_tear
+{
+	description	"Rip!"
+
+	minDistance	196
+	maxDistance	3937
+	volumeDb	0
+	frequentlyused
+
+	sound/strogg/network_guardian/metal_tear
+	shakeData 0 adfijkjiloqqrurxzzzzzzzzzzzzzyzyzzzyzyyxwyxxwvzuwvwsqttnommjjkiggigeeeedccccbbbaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound network_guardian_glass_break
+{
+	description	"Punch!"
+
+	minDistance	39
+	maxDistance	787
+	volumeDb	0
+	soundClass	1
+
+	sound/impact/glass/medlabs_tube
+	shakeData 0 zyxxxwwwwwxxxwwxvvuvuutttsusrqooppoooonidcbcbbaaaaaaaaaaaa
+
+}
+
+sound network_guardian_glass_crack
+{
+	description	"Punch!!"
+
+	minDistance	39
+	maxDistance	787
+	volumeDb	0
+
+	sound/impact/glass/medlabs_tube_crack
+	shakeData 0 zzzwttpmiheedcdcbbbbaaaaaaaaaaaaaaaa
+}
+
+
+sound network_guardian_alert
+{
+	description	"roar!"
+
+	minDistance	2000
+	maxDistance	6000
+	volumeDb	4
+	shakes		0.5
+
+	sound/strogg/network_guardian/alert
+	shakeData 0 oponhrsttuuwxwwuyyvyyyyyyyxxsuxyvwwyuyvyyxsyyywyvwxwsywsuyuvsqsuwwytyvtsqsnmqkohomjnqpopgifdbbbbaaaaaaaaaaaaaaa
+}
+
+
+sound network_guardian_pain
+{
+	description	"ouch!"
+
+	minDistance	2000
+	maxDistance	6000
+	volumeDb	0
+
+	sound/strogg/network_guardian/pain1
+	shakeData 0 bpnutturruusootqsmrpmmiifffeedeefcddcbbbbbaaaaaa
+	sound/strogg/network_guardian/pain2
+	shakeData 1 iksqpyywsxqsooljlkkjjiiiggfhfefffeddddccbbbbbaaaa
+}
+
+
+sound network_guardian_death
+{
+	description	"death"
+
+	minDistance	2000
+	maxDistance	6000
+	volumeDb	0
+	shakes		0.2
+
+	sound/strogg/network_guardian/death
+	shakeData 0 cnpmlljmpnoorsqqsywnvpstortoosqmorvnnrruspnslmnopqnsrmppknnokmnojhhiihfeggddedbbaaaaaaaa
+}
+
+
+sound network_guardian_growl
+{
+	description	"grr!"
+
+	minDistance	2000
+	maxDistance	6000
+	volumeDb	4
+	shakes		0.4
+
+	sound/strogg/network_guardian/growl1
+	shakeData 0 xxttptuwxuwwxwzyyxyytwvrqtrqsqnnusmojiflhgieffedcdcbbbbbbaaaaaaaaaaaaaaaa
+	sound/strogg/network_guardian/growl2
+	shakeData 1 buxvttvwvxyxyzuwxtyyyvwvuuvvoqosrlnmoopllponilfhjffeeecdcbbbaaaaaaaaaaa
+}
+
+
+sound network_guardian_wing_unfold
+{
+	description	"sound of his wings unfolding"
+
+	minDistance	400
+	maxDistance	4000
+	volumeDb	0
+
+	sound/strogg/network_guardian/wing_unfold
+	shakeData 0 uzzxwnmjjikjlgffffeemddgbaaaa
+}
+
+
+sound network_guardian_engine_blast
+{
+	description	"blastoff!"
+
+	minDistance	400
+	maxDistance	4000
+	volumeDb	0
+
+	sound/strogg/network_guardian/engine_blast
+	shakeData 0 abcdgfhwzzyyyyxvvvxrrvtrxsurtoluottropjiklmhjsmlhijikjiieeijedeeeddfhgecceecbbbabbbaaaaaaaaaaaaaaa
+}
+
+
+sound network_guardian_fly_loop
+{
+	description	"engine looping"
+
+	minDistance	390
+	maxDistance	4000
+	volumeDb	-2
+	frequentlyused
+	looping
+
+	sound/strogg/network_guardian/fly_loop
+	shakeData 0 lllvomurntqmquolqssmqoommotsopmnmlrnurrntpokprkkpksnlkomnmqomiqooppjlmokmsjlllssmonlmpmnrqllnnqnwwnlimqnqprspmpnvtoontpwtrqnqnvqsmsspp
+}
+
+sound network_guardian_jetfire1
+{
+	minDistance	120
+	maxDistance	3000
+	volumeDb	0
+	looping
+
+	sound/effects/fire/fire_gas
+	shakeData 0 mnpnkmmplmllnlljmkjljjjkkjjlljkjnhkjlllllllkkllmmmmkljlmnnnnmknmommmkimlkjkmjmkllojnkkkjmlimjijkkkmjjklkkkkmmlkkokmm
+}
+
+
+sound network_guardian_jetfire2
+{
+	minDistance	120
+	maxDistance	3000
+	volumeDb	0
+	looping
+
+	sound/effects/fire/fire_gas2
+	shakeData 0 orqpprnpssomonqqsomlotpqumnoknmnnkonpnjqmonlmksjliqmnlopqonmmoutklplrqrnmtrontsrppnupltm
+}
+
+
+sound network_guardian_rocket_fire
+{
+	description	"KERBOOM!"
+
+	minDistance	80
+	maxDistance	1600
+	volumeDb	0
+	frequentlyused
+
+	sound/strogg/network_guardian/rocket_fire
+	shakeData 0 yyyyyyyyywwxxwwvuuqwsnwljtmpponlljnhmjkgeghgfdeddcbcbcbbaaaaaaaaaaaaaa
+}
+
+sound network_guardian_elevator_crash
+{
+	description	"End of the elevator ride"
+
+	minDistance	39
+	maxDistance	787
+	volumeDb	0
+	global
+
+	sound/strogg/network_guardian/elevator_crash
+	shakeData 0 uyxwxwxxwxzrwwwwywtvxuvzuvvurvsqxtvprkrmnommlonkjokikkgkkjhffhghhiffgghhhhfghghhgfgfeefefhffffgfdfeeedeeedefeecceeeefebdddecceeddedcccddccdbbbbbbbbbcbbbbbbbbbaaabaaaaaaaaaaaaaaa
+}
+
+
+
+
+

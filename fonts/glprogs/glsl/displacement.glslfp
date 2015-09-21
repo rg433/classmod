@@ -1,0 +1,73 @@
+uniform sampler2D Image;
+uniform sampler2D DisplacementMap;
+
+varying vec2 texCoord;
+varying vec4 colorFragment;
+
+uniform float scrollX, scrollY;
+uniform float sizeX, sizeY;
+uniform float texCoordSize;
+
+
+/*
+void main2(void)
+{
+   vec2    newTexCoord = texCoord;
+   float   newSize = fract( size / 10.0 );
+   if ( newSize > 0.5 ) newSize = 1.0 - newSize;
+   newSize = newSize * 0.2 + 0.9;
+   float   newScroll = scroll;
+   
+   newScroll *= 0.1;
+  newSize = 1.0;
+  // newScroll = 0.0;
+   newTexCoord.s += newScroll;
+   newTexCoord.s *= newSize;
+   newTexCoord.t += newScroll;
+   newTexCoord.t *= newSize;
+   
+   vec3   offset = texture2D( DisplacementMap, newTexCoord ).xyz;
+   offset *= texCoordSize;
+   
+   vec4   base = texture2D( Image, texCoord + offset.xy );
+   
+   gl_FragColor = base;
+}
+*/
+
+void main(void)
+{
+	vec2    newTexCoord = texCoord;
+	vec2    newSize = vec2( sizeX * 0.5 + 1.5, sizeY * 0.5 + 1.5 );
+	vec2    newScroll = vec2( scrollX, scrollY );
+	
+	newScroll *= 0.2;
+	
+	//newScroll = vec2( 0.0, 0.0 );
+	// newSize = vec2( 1.0, 1.0 );
+	
+	vec2   tempTexCoord = newTexCoord - vec2( 0.5, 0.5 );
+	
+	tempTexCoord *= newSize;
+	tempTexCoord += newScroll;
+	
+	newTexCoord = tempTexCoord + vec2( 0.5, 0.5 );
+	
+	vec3   offset = texture2D( DisplacementMap, newTexCoord ).xyz;
+	offset *= texCoordSize;
+   
+   	vec4   base = texture2D( Image, texCoord + offset.xy );
+   
+	gl_FragColor = base * colorFragment;
+}
+
+/*
+
+varying vec2 texCoord;
+
+void main(void)
+{
+   gl_FragColor = vec4( texCoord.s, texCoord.t, 0.0, 0.0 );
+}
+
+*/

@@ -1,0 +1,514 @@
+
+
+sound smarine_alert
+{
+	description	"i must kill now"
+
+	minDistance	40
+	maxDistance	2000
+	volumeDb	0
+
+	sound/strogg/stroggmarine/sight3
+	shakeData 0 zzzz
+	sound/strogg/stroggmarine/sight4
+	shakeData 1 zzzzz
+	sound/strogg/stroggmarine/sight5
+	shakeData 2 zzzzzz
+	sound/strogg/stroggmarine/sight6
+	shakeData 3 zzzzzzz
+	sound/strogg/stroggmarine/sight8
+	shakeData 4 jzzzyzzoyxzywmnhehkmlpqqnrtrrwvwyqoedcbbbaaaaa
+	sound/strogg/stroggmarine/sight9
+	shakeData 5 uswyzzzwgyzzzzzzzzzzyvwvfeddcbbbaaaa
+	sound/strogg/stroggmarine/sight10
+	shakeData 6 imqzzzzzxhgmlwyzzwzzzzzzzzzzzzzzzzzzzzzzzzyzzxrytnbaa
+	sound/strogg/stroggmarine/sight11
+	shakeData 7 xzjzzzzzyfxzzzzzzzxrkhjgfdbaa
+	sound/strogg/stroggmarine/sight12
+	shakeData 8 cyzlzyylnnzyzzzzzzzzzzzzzzytsvskjigfdecbbaa
+	sound/strogg/stroggmarine/sight13
+	shakeData 9 djqzzzyzzzyogzzzzzymzzvcb
+	sound/strogg/stroggmarine/sight14
+	shakeData 10 abefgmyswzzyfdizyzzzzzzzzzzzzuebaaa
+}
+
+
+
+
+
+sound smarine_ready_weapon
+{
+	description	"preparing gun"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/stroggmarine/ready_weapon
+	shakeData 0 faooppbmbbnspoifbbbcaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound smarine_ready_blaster
+{
+	description	"preparing gun"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/stroggmarine/ready_blaster
+	shakeData 0 ktbdxnnjnlmfcbbbbaaaaaaaaaaaaaaaa
+}
+
+
+sound smarine_ready_mgun
+{
+	description	"preparing gun"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/stroggmarine/ready_mgun
+	shakeData 0 mpucotcaaaaaaaaaaaaaaaaaa
+}
+
+sound smarine_charge
+{
+	description	"strogg marine charge"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	-4
+
+	sound/strogg/stroggmarine/sight3
+	shakeData 0 zzzz
+	sound/strogg/stroggmarine/sight4
+	shakeData 1 zzzzz
+	sound/strogg/stroggmarine/sight5
+	shakeData 2 zzzzzz
+	sound/strogg/stroggmarine/sight6
+	shakeData 3 zzzzzzz
+	sound/strogg/stroggmarine/sight8
+	shakeData 4 jzzzyzzoyxzywmnhehkmlpqqnrtrrwvwyqoedcbbbaaaaa
+	sound/strogg/stroggmarine/sight9
+	shakeData 5 uswyzzzwgyzzzzzzzzzzyvwvfeddcbbbaaaa
+	sound/strogg/stroggmarine/sight10
+	shakeData 6 imqzzzzzxhgmlwyzzwzzzzzzzzzzzzzzzzzzzzzzzzyzzxrytnbaa
+	sound/strogg/stroggmarine/sight11
+	shakeData 7 xzjzzzzzyfxzzzzzzzxrkhjgfdbaa
+	sound/strogg/stroggmarine/sight12
+	shakeData 8 cyzlzyylnnzyzzzzzzzzzzzzzzytsvskjigfdecbbaa
+	sound/strogg/stroggmarine/sight13
+	shakeData 9 djqzzzyzzzyogzzzzzymzzvcb
+	sound/strogg/stroggmarine/sight14
+	shakeData 10 abefgmyswzzyfdizyzzzzzzzzzzzzuebaaa
+}
+
+
+
+sound smarine_die
+{
+	description	"sometimes i fall down"
+
+	minDistance	40
+	maxDistance	1400
+	volumeDb	0
+
+	sound/strogg/stroggmarine/die2.wav
+	shakeData 0 zzzz
+	sound/strogg/stroggmarine/die3.wav
+	shakeData 1 zzzzzzzz
+	sound/strogg/stroggmarine/die4.wav
+	shakeData 2 zzzzzz
+	sound/strogg/stroggmarine/die5.wav
+	shakeData 3 zzzzzzzz
+	sound/strogg/stroggmarine/die6.wav
+	shakeData 4 zzzzzzzz
+}
+
+
+sound smarine_pain
+{
+	description	"ouchie"
+
+	minDistance	40
+	maxDistance	1400
+	volumeDb	0
+
+	sound/strogg/stroggmarine/pain1
+	shakeData 0 aceijpnxuwtswsnnijiffgfecccccaaa
+	sound/strogg/stroggmarine/pain2
+	shakeData 1 nwywvuvsuuwvvvwvssnkligdccbaaaaaaa
+	sound/strogg/stroggmarine/pain3
+	shakeData 2 vxxwusvvuuuvssruusopnkjeeccaaaaaa
+	sound/strogg/stroggmarine/pain4
+	shakeData 3 xywvwvuuwwuutxxstttsppnrkjhjlgfcaa
+	sound/strogg/stroggmarine/pain5
+	shakeData 4 tvvvuvuxsttwtrurqtttqsjmljebbaaaaa
+	sound/strogg/stroggmarine/pain6
+	shakeData 5 hvzywyzzzzzzzzyzzzzzze
+}
+
+
+
+sound smarine_punch
+{
+	description	"punch"
+
+	minDistance	600
+	maxDistance	800
+	volumeDb	6
+	frequencyshift	0.7,1.2
+
+	sound/weapons/impact/whooshes_melee/melee_hit1
+	shakeData 0 ahrzzzzztxmgedcbbaaaaa
+	sound/weapons/impact/whooshes_melee/melee_hit2
+	shakeData 1 evzzzzzonjlhfedcaaaaaaa
+	sound/weapons/impact/whooshes_melee/melee_hit3
+	shakeData 2 zzzzzyxjfbaaaaaaa
+}
+
+
+sound smarine_swat
+{
+	description	"swatting"
+
+	minDistance	40
+	maxDistance	600
+	volumeDb	-4
+	frequencyshift	0.8,1.2
+
+	sound/strogg/stroggmarine/swat
+	shakeData 0 jjlprustruujedba
+}
+
+
+sound smarine_slash
+{
+	description	"rip"
+
+	minDistance	40
+	maxDistance	600
+	volumeDb	-4
+	frequencyshift	0.6,1.1
+
+	sound/strogg/stroggmarine/slash
+	shakeData 0 jilpsusuqtvjedba
+}
+
+
+sound smarine_swing
+{
+	description	"whoosh"
+
+	minDistance	40
+	maxDistance	600
+	volumeDb	-4
+	no_dups
+
+	sound/weapons/impact/whooshes_melee/whoosh1
+	shakeData 0 cmyzzxpneaa
+	sound/weapons/impact/whooshes_melee/whoosh2
+	shakeData 1 cmswzpofdbaaaa
+	sound/weapons/impact/whooshes_melee/whoosh3
+	shakeData 2 bfvvyzzzrhcaaa
+	sound/weapons/impact/whooshes_melee/whoosh4
+	shakeData 3 ostzyszzyytfcbbaaaaa
+	sound/strogg/stroggmarine/growl1
+	shakeData 4 oqsrsusvsrqrmtpokmfdbaaaaa
+	sound/strogg/stroggmarine/growl2
+	shakeData 5 mopprssvoossunnjfdcaaaa
+}
+
+sound smarine_growl
+{
+	description	"when he's about to throw down"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/stroggmarine/growl1
+	shakeData 0 oqsrsusvsrqrmtpokmfdbaaaaa
+	sound/strogg/stroggmarine/growl2
+	shakeData 1 mopprssvoossunnjfdcaaaa
+	sound/strogg/stroggmarine/growl3
+	shakeData 2 acgmwyzzzzzzzzzzzzzyzyzyutvqnliiiiheegfddba
+	sound/strogg/stroggmarine/growl4
+	shakeData 3 aabbdhqwzzzzzzzzxxzzqmnkjhhhfddeefdcbaaa
+	sound/strogg/stroggmarine/growl5
+	shakeData 4 abdfhltzyzzzzzzzzxtsmlkkgffcbbaa
+	sound/strogg/stroggmarine/growl6
+	shakeData 5 bbcdfipzuzzzzzzzzzzzzzujeba
+	sound/strogg/stroggmarine/growl7
+	shakeData 6 bdelvxxzzzzyuuxxxtuuqqnmhmhhijighghgggfda
+	sound/strogg/stroggmarine/growl8
+	shakeData 7 abcgqswzzzzzzzvrrqponfecbaa
+}
+
+
+
+sound smarine_gear
+{
+	description	"sound of his equipment moving"
+
+	minDistance	40
+	maxDistance	1000
+	volumeDb	-6
+
+	sound/strogg/stroggmarine/gear1
+	shakeData 0 aacdbgbdgdccdbbbaaaa
+	sound/strogg/stroggmarine/gear2
+	shakeData 1 baaaaaaaaabaaaaaaaaaaa
+	sound/strogg/stroggmarine/gear3
+	shakeData 2 aabeeaaabbaaaaaaaaaaaa
+	sound/strogg/stroggmarine/gear4
+	shakeData 3 dbbbbbbabbbaaaaaaaaaaa
+}
+
+
+sound smarine_steps
+{
+	description	"running"
+
+	minDistance	40
+	maxDistance	702
+	volumeDb	2
+	frequentlyused
+	frequencyshift	0.8,1.2
+	no_dups
+
+	sound/strogg/footsteps/small/default1
+	shakeData 0 pbfaaaaaaaa
+	sound/strogg/footsteps/small/default2
+	shakeData 1 pccaaaabbaa
+	sound/strogg/footsteps/small/default3
+	shakeData 2 pbhaaaabbaa
+	sound/strogg/footsteps/small/default4
+	shakeData 3 ncfaaaabbba
+}
+
+
+sound smarine_steps_flesh
+{
+	description	"running"
+
+	minDistance	40
+	maxDistance	702
+	volumeDb	2
+	frequentlyused
+	frequencyshift	0.8,1.2
+	no_dups
+
+	sound/strogg/footsteps/small/flesh1
+	shakeData 0 hfdbabaaaaaaaaaaaaaa
+	sound/strogg/footsteps/small/flesh2
+	shakeData 1 hedbaaaaaaaaaaaaaaaa
+	sound/strogg/footsteps/small/flesh3
+	shakeData 2 ffbacaaaabaaaaaaaaaaaaaaaa
+	sound/strogg/footsteps/small/flesh4
+	shakeData 3 ddcdaaadbcdaaaaa
+}
+
+
+sound smarine_steps_dirt
+{
+	description	"running"
+
+	minDistance	40
+	maxDistance	702
+	volumeDb	2
+	frequentlyused
+	frequencyshift	0.8,1.2
+	no_dups
+
+	sound/strogg/footsteps/small/dirt1
+	shakeData 0 gcbabaagbaaa
+	sound/strogg/footsteps/small/dirt2
+	shakeData 1 kibedacadaaa
+	sound/strogg/footsteps/small/dirt3
+	shakeData 2 jcbaaabbbaa
+	sound/strogg/footsteps/small/dirt4
+	shakeData 3 ibhaabaacaaa
+}
+
+
+sound smarine_steps_hollow_metal
+{
+	description	"running"
+
+	minDistance	40
+	maxDistance	702
+	volumeDb	2
+	frequencyshift	0.8,1.2
+	no_dups
+
+	sound/strogg/footsteps/small/h_metal1
+	shakeData 0 jlmnnihhddcbaaaaaa
+	sound/strogg/footsteps/small/h_metal2
+	shakeData 1 ijnmjkghgccbbaaaaaaaa
+	sound/strogg/footsteps/small/h_metal3
+	shakeData 2 jjmihedcbbaaaaaaa
+	sound/strogg/footsteps/small/h_metal4
+	shakeData 3 ikkjifddccbbbbaaaaaaaaa
+}
+
+
+sound smarine_steps_water
+{
+	description	"running"
+
+	minDistance	40
+	maxDistance	702
+	volumeDb	2
+	frequencyshift	0.8,1.2
+	no_dups
+
+	sound/strogg/footsteps/small/water1
+	shakeData 0 keeaeaaacbaa
+	sound/strogg/footsteps/small/water2
+	shakeData 1 ljcaaaaaaaaa
+	sound/strogg/footsteps/small/water3
+	shakeData 2 kjbaaaaabaa
+	sound/strogg/footsteps/small/water4
+	shakeData 3 qiaabaabeba
+}
+
+
+sound smarine_breathe
+{
+	description	"strogg marine breathing"
+
+	minDistance	40
+	maxDistance	800
+	volumeDb	-12
+	frequentlyused
+	no_dups
+
+	sound/strogg/stroggmarine/breath01
+	shakeData 0 fgjkruzwqnnpjigdcaaaaaaahllihfffdcba
+	sound/strogg/stroggmarine/breath02
+	shakeData 1 vvuqpruqmqliggfddbacenjjjfeecbaa
+	sound/strogg/stroggmarine/breath03
+	shakeData 2 ltuutrprmkkkjkjhhdbadcdgghgfheca
+	sound/strogg/stroggmarine/breath04
+	shakeData 3 hrrqpokjhdcbaaaaaadilihfefdcbaa
+}
+
+
+sound smarine_gun
+{
+	description	"smarine fire"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+	frequencyshift	0.8,1.2
+	frequentlyused
+
+	sound/strogg/stroggmarine/fire02
+	shakeData 0 zzvzyyxysomlkgedcbbaaaaaaaaaaaaaaaaaaaaaaa
+	sound/strogg/stroggmarine/fire01
+	shakeData 1 zzzywxxwrpnnjgfdcbbaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound smarine_weapon_slap
+{
+	description	"smacking the gun"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	-4
+
+	sound/strogg/stroggmarine/weapon_slap
+	shakeData 0 lfa
+}
+
+
+sound smarine_grunt
+{
+	description	"when the marine does something hard."
+
+	minDistance	40
+	maxDistance	1000
+	volumeDb	-2
+	frequencyshift	0.8,1.2
+
+	sound/strogg/stroggmarine/grunt1
+	shakeData 0 iwyxyvvwvupkkfa
+	sound/strogg/stroggmarine/grunt2
+	shakeData 1 twttixswywxtwvqslefba
+}
+
+
+sound smarine_chatter
+{
+	description	"chatting away"
+
+	minDistance	40
+	maxDistance	1000
+	volumeDb	-12
+
+	sound/strogg/stroggmarine/breath01
+	shakeData 0 fgjkruzwqnnpjigdcaaaaaaahllihfffdcba
+	sound/strogg/stroggmarine/breath02
+	shakeData 1 vvuqpruqmqliggfddbacenjjjfeecbaa
+	sound/strogg/stroggmarine/breath03
+	shakeData 2 ltuutrprmkkkjkjhhdbadcdgghgfheca
+	sound/strogg/stroggmarine/breath04
+	shakeData 3 hrrqpokjhdcbaaaaaadilihfefdcbaa
+}
+
+
+sound smarine_chatter_combat
+{
+	description	"chatting away"
+
+	minDistance	40
+	maxDistance	1000
+	volumeDb	-12
+
+	sound/strogg/stroggmarine/chatter_combat1
+	shakeData 0 oomnrrsqnmrmnsvqrqurursnvqpsmiqmlpsomhfgedbaaaaaaa
+	sound/strogg/stroggmarine/chatter_combat2
+	shakeData 1 cenqqkoqnvosovqhhhgghggigihghiefdfghggjnnmrpoosxurqlda
+	sound/strogg/stroggmarine/chatter_combat3
+	shakeData 2 ltouqprttrvuprpsmkihiimpqnkkjlnkkksusvsouprrssostnqmmkikhfgfgddddcbbbbaaaaaaaa
+	sound/strogg/stroggmarine/chatter_idle1
+	shakeData 3 cdffflppquqqsqsjrpoqmnoojlhkiknmllonortotnqsqohfddriijigeecbaaaaaaa
+	sound/strogg/stroggmarine/chatter_idle2
+	shakeData 4 fiifhfhhhjnpuvornmgjljmsojkigiolnmjhhhjuopmqspllfabba
+	sound/strogg/stroggmarine/chatter_idle3
+	shakeData 5 rnuukpuorsppiulifjmihghjoniijjqsnlmrsslorwttlca
+}
+
+
+sound smarine_machinegun
+{
+	minDistance	196
+	maxDistance	1181
+	volumeDb	0
+	frequencyshift	0.8,1.2
+	frequentlyused
+
+	sound/strogg/tactical_transfer/m_gun1
+	shakeData 0 zzzwpkqgfdccbbdccbaaaaaaaaaaaaaaaaaaaaaaa
+	sound/strogg/tactical_transfer/m_gun2
+	shakeData 1 zzxpskongdcdbabbbaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound smarine_shotgun_fire
+{
+	minDistance	196
+	maxDistance	1181
+	volumeDb	0
+	frequencyshift	0.8,1.2
+	frequentlyused
+
+	sound/strogg/tactical_transfer/shotgun_fire
+	shakeData 0 zyywrtvnryxwuvrlnmkeeecbccbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}

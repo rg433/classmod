@@ -1,0 +1,201 @@
+
+
+sound s_protector_alert
+{
+	description	"Hiss!!"
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+
+	sound/strogg/stream_protector/stream_alert
+	shakeData 0 defggikmmmtrvssttvrvuuuuvtrosttqrtstrqpnlvloklpmpjgfgeedeeebcbbabaaaaaaaaaaaaa
+}
+
+
+sound s_protector_ready_weapon
+{
+	description	"preparing gun"
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+
+	sound/strogg/stream_protector/ready_weapon
+	shakeData 0 tiyjbbbfzydcbbbbbaaaaaaaaaaaaaaaaa
+}
+
+sound s_protector_step
+{
+	description	"Steps are begin taken..."
+
+	minDistance	40
+	maxDistance	1181
+	volumeDb	0
+	frequentlyused
+
+	sound/strogg/stream_protector/step_1.wav
+	shakeData 0 mmmmmm
+	sound/strogg/stream_protector/step_2.wav
+	shakeData 1 lwkthghcdccbbbbb
+	sound/strogg/stream_protector/step_3.wav
+	shakeData 2 zvqoopijkifedcccbbaa
+	sound/strogg/stream_protector/step_4.wav
+	shakeData 3 zqipifgeddccbbabaaa
+	sound/strogg/stream_protector/step_5.wav
+	shakeData 4 wqifeececbbbaaaa
+	sound/strogg/stream_protector/step_6.wav
+	shakeData 5 yjnknijjccccbbbbaa
+	sound/strogg/stream_protector/step_7.wav
+	shakeData 6 eynqlujihgeecbbbaaa
+	sound/strogg/stream_protector/step_8.wav
+	shakeData 7 zngkgeecccbbaaaa
+	sound/strogg/stream_protector/step_9.wav
+	shakeData 8 yrhggeffdbbbbaaaa
+	sound/strogg/stream_protector/step_10.wav
+	shakeData 9 xjgecccbbbaaaaaaa
+	sound/strogg/stream_protector/step_11.wav
+	shakeData 10 znkggfdccccbbbaaaa
+	sound/strogg/stream_protector/step_12.wav
+	shakeData 11 zjmjjefecbbbbbaaaa
+	sound/strogg/stream_protector/step_13.wav
+	shakeData 12 sqheeefhfeccbbbaa
+	sound/strogg/stream_protector/step_14.wav
+	shakeData 13 zlhwiqiifgdcbbbbbaa
+	sound/strogg/stream_protector/step_15.wav
+	shakeData 14 rkfefbbbbabaaaa
+}
+
+
+
+sound s_protector_servo
+{
+	description	"whiieerrr!"
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	-9
+	frequentlyused
+
+	sound/strogg/stream_protector/servo1
+	shakeData 0 aabbbbbccccbcbccccbb
+	sound/strogg/stream_protector/servo2
+	shakeData 1 bbbccccccccccccbcbccbbaaa
+	sound/strogg/stream_protector/servo3
+	shakeData 2 aabbbcbccbaaa
+	sound/strogg/stream_protector/servo4
+	shakeData 3 abbbbbcccccbccbaaaa
+}
+
+
+sound s_protector_swing
+{
+	description	"splugh!"
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+
+	sound/strogg/stream_protector/swing1
+	shakeData 0 bclqwqgdbaaa
+	sound/strogg/stream_protector/swing2
+	shakeData 1 bksrtjebaaa
+}
+
+
+sound s_protector_pain
+{
+	description	"ouch!"
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+
+	sound/strogg/stream_protector/stream_pain1
+	shakeData 0 odkkoprrorsmmklortsvniilihiigeeddddcbbbaaaaaaa
+	sound/strogg/stream_protector/stream_pain2
+	shakeData 1 rhqpoqrpqlqoqpopmoplhgiogiifeddcbaaaaaaaaaa
+}
+
+
+sound s_protector_growl
+{
+	description	"anger...rising!"
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+
+	sound/strogg/stream_protector/stream_growl
+	shakeData 0 sirqsvxvxuuusrolpssojijrjljgheddcbbbbbbbbbaaaaaaaaaaaa
+}
+
+
+sound s_protector_death
+{
+	description	"dead today."
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+
+	sound/strogg/stream_protector/stream_death
+	shakeData 0 dgqtqypyrryxvyutvwwyvyvtyyvvyxqzvzwzrmjhfccdccbebbbabbaaaaaaaaaaaaa
+}
+
+
+sound s_protector_chatter
+{
+	description	"chattering while idle"
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+
+	sound/strogg/stream_protector/chatter1
+	shakeData 0 bcempmewehhclmdfckqbccjcrhhufwfexdikffddeccfdcbbbeqdfccmdjcbcbcvdrffbcaaaafabbe
+	sound/strogg/stream_protector/chatter2
+	shakeData 1 bcochtqevhkedetegqxthgccuwfhcdccteebcbbbhbcbbbccgbbadcbbaaaabkgcbaaaaadaaaaaaaaaaaaaa
+}
+
+
+sound s_protector_chatter_combat
+{
+	description	"chattering while battling"
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+
+	sound/strogg/stream_protector/chatter_combat1
+	shakeData 0 huuzsypyzztzofvpymrzxxwpkuinjihtdpcdgcggeefcddqendccdcwojjuivxeudccgegdefdecgigdgbbaaaa
+	sound/strogg/stream_protector/chatter_combat2
+	shakeData 1 uowvyxywwgyiwnqtwyzyqmswrwtsspnpecdcggeebckchdidhihgryiolihhfeiggdaagcgdehckchcebjccaabbaaaaaa
+}
+
+
+sound s_protector_blade_clang
+{
+	description	"sound of the blade going into the ground."
+
+	minDistance	118
+	maxDistance	708
+	volumeDb	0
+
+	sound/strogg/berserker/blade1
+	shakeData 0 gzzzxutqkfccaaaaaaaa
+	sound/strogg/berserker/blade2
+	shakeData 1 azzwtlttmigcaaaaaa
+}
+
+sound s_protector_fall
+{
+	description	"lands in a heap when he dies"
+
+	minDistance	39
+	maxDistance	1181
+	volumeDb	0
+
+	sound/strogg/stream_protector/stream_fall
+	shakeData 0 aceioqqxzzzzzwuzzzzwvnlliijkgeefeccaaa
+}

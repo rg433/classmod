@@ -79,8 +79,8 @@ entityDef weapon_shotgun
 	"joint_view_guiLight"			"body"
 	"joint_world_flash"			"muzzle_flash"
 
-	"fireRate"				".8"
-	"spread"				"7"
+	"fireRate"				".1"
+	"spread"				"4"
 	"hitscans"				"10"
 
 	"inv_weapon"				"weapon_shotgun"
@@ -93,7 +93,7 @@ entityDef weapon_shotgun
 	"def_hitscan"				"hitscan_shotgun_pellet"
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_shotgun"
 	"ammoType"				"ammo_shotgun"
-	"clipSize"				"8"
+	"clipSize"				"20"
 	"ammoRequired"				"1"
 	"gui"					"guis/weapons/shotgun_ammo.gui"
 	"mtr_icon"				"gfx/guis/hud/icons/gun_shotgun"

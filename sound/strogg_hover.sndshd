@@ -1,0 +1,92 @@
+
+
+sound strogg_hover_alert
+{
+	minDistance	120
+	maxDistance	2500
+	volumeDb	0
+
+	sound/strogg/hornet/alert1
+	shakeData 0 dilkonqnttvwwxuuvtvxyxvxwvuttuvwursrootqrspnotrkmkkllikkmiigkkjhhhghfegfeefefeecccddcccbbbbbbbaaaaaaaaaaaaa
+	sound/strogg/hornet/alert2
+	shakeData 1 aacehossuxtquonvuxuwttuxvwtvuvsuvvwuqpsoptrsspnsslmkklljkkmijhkkjhhhfigffgfeegefeeccdcdddccbbbbbbbbbaaaaaaaaaaaaaaaaaa
+	sound/strogg/hornet/alert3
+	shakeData 2 aacefjpurutuqrrruvxxtvtsvxvwvuvvuttuvxuqrrontqsspoosslmlkklkikkmijhkkjhhiehhfegfeegfffedcdcdddcccbbbbbbbbaaaaaaaaaaaaaaa
+}
+
+
+
+sound strogg_hover_loop
+{
+	minDistance	120
+	maxDistance	2500
+	volumeDb	0
+	frequentlyused
+	looping
+
+	sound/strogg/hornet/thruster1.wav
+	shakeData 0 egefeedeefehgggihhghgegggfffefedddeeeeffggfeffeefigfhggggffgiefefeeeddedddggeffgffgffhiggiggffgghhfgfeedeedefeefefgheeffeeggghififefhegefeddeeeefedc
+}
+
+sound strogg_hover_crash_loop
+{
+	minDistance	120
+	maxDistance	2500
+	volumeDb	0
+	looping
+
+	sound/cinematics/intro/thruster1.wav
+	shakeData 0 kjkknmnllnonuoroqqnonoonnjnpnromlnmmmkmnjlkmolkjjijkijjjkljlllkjkjnkkljkijiikljiiijmjmnmlkjklklikkkjjjklkjijjkjllmnolljkllk
+}
+
+sound strogg_hover_bomb_whistle
+{
+	minDistance	250
+	maxDistance	2500
+	volumeDb	0
+	frequentlyused
+
+	sound/strogg/hornet/incoming01.wav
+	shakeData 0 aacdddfdhgfijkkfntoompuromrksmosqmrnqnklmomjnnlpspsuvuzyzxwka
+	sound/strogg/hornet/incoming02.wav
+	shakeData 1 aabbccdeeefgfgieffhghehhhghhihiiiklmnmlnnkmpqkmnrmoroopnrqmpnosstqqtvqvvwsouzzyvxxyyxszwzymb
+	sound/strogg/hornet/incoming03.wav
+	shakeData 2 bdcdedehffhihkhihhjjiiilkjhheddeeegfeededdedefefdefefegjjlkqszzyzyzi
+	sound/strogg/hornet/incoming04.wav
+	shakeData 3 ccijkorpxyyyyyyyxyyyw
+	sound/strogg/hornet/incoming05.wav
+	shakeData 4 bdgjmptwxyywyxywxyysmgda
+	sound/strogg/hornet/incoming06.wav
+	shakeData 5 ceonompppqsutttuuuvsuvvrrssquuptttsvuvsvtuuvrca
+}
+
+sound effects_hornet_napalm_explosion
+{
+	minDistance	400
+	maxDistance	2000
+	volumeDb	-6
+	frequentlyused
+
+	sound/effects/explosions/fiery01
+	shakeData 0 wyxwzswpvuptxxwwotsstrtrrqpursustqqsrqqrrqqrrroqqqrrqqpoqqpqqpppppjkmhnkmlhliihfhhdeedcbcddbbbbaaaaaaaaaaaaaaa
+	sound/effects/explosions/fiery02
+	shakeData 1 lyvzztoztvvutvwwxwqutstqqqqttuqotsuqqrpprpqppoqmnpmmkklmkihjihfdfeddegccbbbbbbbbaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound effects_hornet_explosion
+{
+	minDistance	400
+	maxDistance	3000
+	volumeDb	0
+	frequentlyused
+
+	sound/effects/explosions/metal01
+	shakeData 0 szzzszyzyxzysuuvruqrqtpuqooqtpmqpolqlmlijllklhhjggfeeeddcbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	sound/effects/explosions/metal02
+	shakeData 1 qzzzyzszzyutrxwyxvsvssstutuwwvtutssqussttusrsstprpqppppprppnoppoonoolnmnnmnmmoknmnnmkmmnnmnmklnojnkkikiifhighffeefdddddcdccccccbcccbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	sound/effects/explosions/metal03
+	shakeData 2 uzzzwpxzzzxvxvxsvywywxywzvxxwvvvtvtvrttouwwvutllkkonhjhiiqmfedkeccbcbbaaaaaaaaaaaaa
+}
+
+

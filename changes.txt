@@ -1,0 +1,7 @@
+menu color red
+fire green
+shotgun clipsize = 20
+firerate 0.8 0.1
+spread 7 to 4
+change menu sound and menu click
+change menu text color

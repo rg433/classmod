@@ -11,14 +11,14 @@ windowDef Desktop
 	definevec4	"white_5"	1,1,1,0.5
 	definevec4	"white_4"	1,1,1,0.4
 	definevec4	"white_0"	1,1,1,0
-	definevec4	"cr_orange"	1,0.501,0,0.8
-	definevec4	"cr_orange_0"	1,0.501,0,0
-	definevec4	"cr_green"	0.835,1,0.654,0.8
-	definevec4	"cr_green_0"	0.835,1,0.654,0
+	definevec4	"cr_orange"	1,0,0,0.8
+	definevec4	"cr_orange_0"	1,0,0,0
+	definevec4	"cr_green"	1,0,0,0.8
+	definevec4	"cr_green_0"	1,0,0,0
 	definevec4	"white_6"	1,1,1,0.6
 	definevec4	"black"		0,0,0,1
 	definevec4	"orange"	0.890,0.537,0,1
-	definevec4	"yellow_8"	1,0.745,0.137,0.8
+	definevec4	"yellow_8"	1,0,0,0.8
 	definevec4	"grey1_4"	0.435,0.435,0.435,0.4
   	definefloat	"tooltip_x_offset"	"gui::mousex" - 255
   	definefloat	"tooltip_y_offset"	"gui::mousey" - 186
@@ -680,7 +680,7 @@ windowDef Desktop
 			visible	1
 			rect	0,0,640,480
 			background	"gfx/guis/common/static1"
-			matcolor	0.894,0.917,0.815,0.024
+			matcolor	1,0,0,0.024
 			matscalex	-1
 		}
 		windowDef grad
@@ -695,7 +695,7 @@ windowDef Desktop
 			rect	0,24,640,480
 			visible	1
 			background	"gfx/guis/mainmenu/screen"
-			matcolor	0.7,0.7,0.7,1
+			matcolor	1,0,0,1
 		}
 		windowDef screen2
 		{
@@ -2285,7 +2285,7 @@ windowDef Desktop
 				rect	397,337,24,24
 				visible	1
 				background	"gfx/guis/mainmenu/createserver_arrow"
-				matcolor	1,0.745,0.137,0.8
+				matcolor	1,0,0,0.8
 			}
 			windowDef mp_browse_t_b4
 			{
@@ -2384,7 +2384,7 @@ windowDef Desktop
 				rect	91,46,16,16
 				visible	1
 				background	"gfx/guis/common/arrow6"
-				matcolor	1,0.501,0,0.8
+				matcolor	1,0,0,0.8
 				rotate -90
 			}
 			windowDef mp_browse_filter_next_mod_bg
@@ -2400,7 +2400,7 @@ windowDef Desktop
 				rect	269,46,16,16
 				visible	1
 				background	"gfx/guis/common/arrow6"
-				matcolor	1,0.501,0,0.8
+				matcolor	1,0,0,0.8
 				rotate 90
 			}
 			windowDef mp_browse_source
@@ -2578,7 +2578,7 @@ windowDef Desktop
 				rect	614,68,16,16
 				visible	1
 				background	"gfx/guis/common/arrow6"
-				matcolor	1,0.501,0,0.8
+				matcolor	1,0,0,0.8
 				matscaley	-1
 			}
 			windowDef mp_browse_dnarrow_bg
@@ -2593,7 +2593,7 @@ windowDef Desktop
 				rect	614,287,16,16
 				visible	1
 				background	"gfx/guis/common/arrow6"
-				matcolor	1,0.501,0,0.8
+				matcolor	1,0,0,0.8
 			}
 			windowDef p_mp_browse_tooltip
 			{
@@ -3047,7 +3047,7 @@ windowDef Desktop
 				rect	383,397,24,24
 				visible	1
 				background	"gfx/guis/mainmenu/createserver_arrow"
-				matcolor	1,0.745,0.137,0.8
+				matcolor	1,0,0,0.8
 			}
 			windowDef mp_friends_t_b1
 			{
@@ -3500,7 +3500,7 @@ windowDef Desktop
 			{
 				rect	408,99,185,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				choices	"#str_200056"
 				textscale	0.24
 				font	"fonts/lowpixel"
@@ -3525,7 +3525,7 @@ windowDef Desktop
 			{
 				rect	408,123,185,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				choices	"#str_200059"
 				values	"0;1"
 				textscale	0.24
@@ -3551,7 +3551,7 @@ windowDef Desktop
 			{
 				rect	408,147,185,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				choices	"#str_200929"
 				values	"DM;Tourney;Team DM;CTF;Arena CTF;DeadZone"
 				textscale	0.24
@@ -3583,7 +3583,7 @@ windowDef Desktop
 			{
 				rect	408,171,185,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				choices	"#str_200059"
 				textscale	0.24
 				font	"fonts/lowpixel"
@@ -3611,7 +3611,7 @@ windowDef Desktop
 				textscale	0.24
 				cvar	si_fraglimit
 				maxchars	3
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onEnter {
@@ -3639,7 +3639,7 @@ windowDef Desktop
 				textscale	0.24
 				cvar	si_capturelimit
 				maxchars	3
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onEnter {
@@ -3667,7 +3667,7 @@ windowDef Desktop
 				textscale	0.24
 				cvar	si_controlTime
 				maxchars	3
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onEnter {
@@ -3695,7 +3695,7 @@ windowDef Desktop
 				textscale	0.24
 				cvar	si_tourneylimit
 				maxchars	3
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onEnter {
@@ -3723,7 +3723,7 @@ windowDef Desktop
 				textscale	0.24
 				cvar	si_timelimit
 				maxchars	3
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onEnter {
@@ -3752,7 +3752,7 @@ windowDef Desktop
 				cvarMin	1
 				textscale	0.24
 				maxchars	2
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onEnter {
@@ -3785,7 +3785,7 @@ windowDef Desktop
 				cvarMin	1
 				textscale	0.24
 				maxchars	2
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onEnter {
@@ -3814,7 +3814,7 @@ windowDef Desktop
 			{
 				rect	408,291,185,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				choices	"#str_200059"
 				textscale	0.24
 				font	"fonts/lowpixel"
@@ -3839,7 +3839,7 @@ windowDef Desktop
 			{
 				rect	408,315,185,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				choices	"#str_200246"
 				textscale	0.24
 				font	"fonts/lowpixel"
@@ -3865,7 +3865,7 @@ windowDef Desktop
 			{
 				rect	408,339,185,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				choices	"#str_200059"
 				textscale	0.24
 				font	"fonts/lowpixel"
@@ -3905,7 +3905,7 @@ windowDef Desktop
 				rect	257,400,28,28
 				visible	1
 				background	"gfx/guis/mainmenu/createserver_arrow"
-				matcolor	1,0.745,0.137,0.8
+				matcolor	1,0,0,0.8
 			}
 			windowDef mp_create_serverbtn
 			{
@@ -4238,7 +4238,7 @@ windowDef Desktop
 					{
 						rect	380,74,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						currentChoice	0
 						choices	"#str_200059"
@@ -4274,7 +4274,7 @@ windowDef Desktop
 					{
 						rect	380,98,142,18
 						visible	0
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						maxchars	16
 						cvar	"g_password"
 						textscale	0.24
@@ -4298,7 +4298,7 @@ windowDef Desktop
 					{
 						rect	380,122,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						maxchars	16
 						cvar	"net_serverRemoteConsolePassword"
 						textscale	0.24
@@ -4318,7 +4318,7 @@ windowDef Desktop
 					{
 						rect	380,146,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	"net_serverAllowServerMod"
@@ -4334,7 +4334,7 @@ windowDef Desktop
 					{
 						rect	380,170,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						maxchars	200
 						cvar	"g_mapCycle"
 						textscale	0.24
@@ -4349,7 +4349,7 @@ windowDef Desktop
 					{
 						rect	380,194,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	si_weaponStay
@@ -4365,7 +4365,7 @@ windowDef Desktop
 					{
 						rect	380,218,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	"si_pure"
@@ -4381,7 +4381,7 @@ windowDef Desktop
 					{
 						rect	380,242,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	1
 						choices	"#str_200179"
 						cvar	"gui_configServerRate"
@@ -4398,7 +4398,7 @@ windowDef Desktop
 					{
 						rect	380,266,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	si_useReady
@@ -4414,7 +4414,7 @@ windowDef Desktop
 					{
 						rect	380,290,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	si_spectators
@@ -4430,7 +4430,7 @@ windowDef Desktop
 					{
 						rect	380,314,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	si_Warmup
@@ -4446,7 +4446,7 @@ windowDef Desktop
 					{
 						rect	380,362,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	si_isBuyingEnabled
@@ -4510,7 +4510,7 @@ windowDef Desktop
 					{
 						rect	380,338,142,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	si_voiceChat
@@ -4819,7 +4819,7 @@ windowDef Desktop
 			{
 				rect	210,171,190,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				cvar	gui_ui_name
 				maxchars	23
 				textscale	0.24
@@ -4837,7 +4837,7 @@ windowDef Desktop
 			editDef mp_set_clan_val
 			{
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				cvar	ui_clan
 				maxchars	12
 				textscale	0.24
@@ -4862,7 +4862,7 @@ windowDef Desktop
 				choices	"gui::model_names"
 				values	"gui::model_values"
 				choiceType	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onAction {
@@ -4882,7 +4882,7 @@ windowDef Desktop
 				choices	"gui::model_names"
 				values	"gui::model_values"
 				choiceType	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onAction {
@@ -4902,7 +4902,7 @@ windowDef Desktop
 				choices	"gui::model_names"
 				values	"gui::model_values"
 				choiceType	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				font	"fonts/lowpixel"
 
 				onAction {
@@ -4917,7 +4917,7 @@ windowDef Desktop
 			{
 				rect	210,267,190,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				textscale	0.24
 				font	"fonts/lowpixel"
 				values	"16000;25600;10000"
@@ -4934,7 +4934,7 @@ windowDef Desktop
 			{
 				rect	210,291,190,18
 				visible	1
-				forecolor	1,0.745,0.137,0.8
+				forecolor	1,0,0,0.8
 				textscale	0.24
 				font	"fonts/lowpixel"
 				choices	"#str_200246"
@@ -5067,7 +5067,7 @@ windowDef Desktop
 				rect	227,244,12,12
 				visible	1
 				background	"gfx/guis/common/32_sqsolid"
-				matcolor	1,0.501,0,1
+				matcolor	1,0,0,1
 			}
 			windowDef railcolor3
 			{
@@ -5591,7 +5591,7 @@ windowDef Desktop
 					{
 						rect	452,119,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_forward
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5605,7 +5605,7 @@ windowDef Desktop
 					{
 						rect	452,143,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_back
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5619,7 +5619,7 @@ windowDef Desktop
 					{
 						rect	452,167,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_moveleft
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5633,7 +5633,7 @@ windowDef Desktop
 					{
 						rect	452,191,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_moveright
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5647,7 +5647,7 @@ windowDef Desktop
 					{
 						rect	452,215,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_moveUp
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5661,7 +5661,7 @@ windowDef Desktop
 					{
 						rect	452,239,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_moveDown
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5675,7 +5675,7 @@ windowDef Desktop
 					{
 						rect	452,263,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_left
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5689,7 +5689,7 @@ windowDef Desktop
 					{
 						rect	452,287,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_right
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5703,7 +5703,7 @@ windowDef Desktop
 					{
 						rect	452,311,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_strafe
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5717,7 +5717,7 @@ windowDef Desktop
 					{
 						rect	452,335,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_speed
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5826,7 +5826,7 @@ windowDef Desktop
 					{
 						rect	452,119,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse0
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5840,7 +5840,7 @@ windowDef Desktop
 					{
 						rect	452,143,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse1
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5854,7 +5854,7 @@ windowDef Desktop
 					{
 						rect	452,167,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse2
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5868,7 +5868,7 @@ windowDef Desktop
 					{
 						rect	452,191,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse3
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5882,7 +5882,7 @@ windowDef Desktop
 					{
 						rect	452,215,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse4
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5896,7 +5896,7 @@ windowDef Desktop
 					{
 						rect	452,239,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse5
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5910,7 +5910,7 @@ windowDef Desktop
 					{
 						rect	452,263,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse6
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5924,7 +5924,7 @@ windowDef Desktop
 					{
 						rect	452,287,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse7
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5938,7 +5938,7 @@ windowDef Desktop
 					{
 						rect	452,311,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse8
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5952,7 +5952,7 @@ windowDef Desktop
 					{
 						rect	452,335,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse9
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5966,7 +5966,7 @@ windowDef Desktop
 					{
 						rect	452,359,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse10
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -5980,7 +5980,7 @@ windowDef Desktop
 					{
 						rect	452,383,149,17
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	"buymenu"
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6107,7 +6107,7 @@ windowDef Desktop
 					{
 						rect	452,119,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_attack
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6121,7 +6121,7 @@ windowDef Desktop
 					{
 						rect	452,143,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse15
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6135,7 +6135,7 @@ windowDef Desktop
 					{
 						rect	452,167,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse14
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6149,7 +6149,7 @@ windowDef Desktop
 					{
 						rect	452,191,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse13
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6163,7 +6163,7 @@ windowDef Desktop
 					{
 						rect	452,215,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_lookUp
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6177,7 +6177,7 @@ windowDef Desktop
 					{
 						rect	452,239,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_lookDown
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6191,7 +6191,7 @@ windowDef Desktop
 					{
 						rect	452,263,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_mlook
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6205,7 +6205,7 @@ windowDef Desktop
 					{
 						rect	452,287,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse18
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6219,7 +6219,7 @@ windowDef Desktop
 					{
 						rect	452,311,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_zoom
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6233,7 +6233,7 @@ windowDef Desktop
 					{
 						rect	452,335,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse19
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6247,7 +6247,7 @@ windowDef Desktop
 					{
 						rect	452,359,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse50
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6261,7 +6261,7 @@ windowDef Desktop
 					{
 						rect	452,383,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	screenshot
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6388,7 +6388,7 @@ windowDef Desktop
 					{
 						rect	452,119,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	"savegame quick"
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6402,7 +6402,7 @@ windowDef Desktop
 					{
 						rect	452,143,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	"loadgame quick"
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6416,7 +6416,7 @@ windowDef Desktop
 					{
 						rect	452,167,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	clientMessageMode
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6430,7 +6430,7 @@ windowDef Desktop
 					{
 						rect	452,191,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	"clientMessageMode 1"
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6444,7 +6444,7 @@ windowDef Desktop
 					{
 						rect	452,215,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse28
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6458,7 +6458,7 @@ windowDef Desktop
 					{
 						rect	452,239,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse29
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6472,7 +6472,7 @@ windowDef Desktop
 					{
 						rect	452,263,149,18
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_ingamestats
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6486,7 +6486,7 @@ windowDef Desktop
 					{
 						rect	452,287,149,17
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_impulse17
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6500,7 +6500,7 @@ windowDef Desktop
 					{
 						rect	452,311,149,17
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	"emote salute"
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6514,7 +6514,7 @@ windowDef Desktop
 					{
 						rect	452,335,149,17
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	"emote cheer"
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6528,7 +6528,7 @@ windowDef Desktop
 					{
 						rect	452,359,149,17
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	"emote taunt"
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6542,7 +6542,7 @@ windowDef Desktop
 					{
 						rect	452,383,149,17
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	"emote grab_a"
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6556,7 +6556,7 @@ windowDef Desktop
 					{
 						rect	452,407,149,17
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						bind	_voicechat
 						textscale	0.24
 						font	"fonts/lowpixel"
@@ -6749,7 +6749,7 @@ windowDef Desktop
 				{
 					rect	468,106,164,18
 					visible	1
-					forecolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
 					textscale	0.24
 					font	"fonts/lowpixel"
 					text	"#str_200143"
@@ -6857,7 +6857,7 @@ windowDef Desktop
 				{
 					rect	468,130,164,18
 					visible	0
-					forecolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
 					choices	"gui::16_9_choices"
 					values	"gui::16_9_values"
 					cvar	"r_mode"
@@ -6882,7 +6882,7 @@ windowDef Desktop
 				{
 					rect	468,130,164,18
 					visible	0
-					forecolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
 					choices	"gui::16_10_choices"
 					values	"gui::16_10_values"
 					cvar	"r_mode"
@@ -6916,7 +6916,7 @@ windowDef Desktop
 				{
 					rect	468,154,164,18
 					visible	1
-					forecolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
 					choices	"gui::aspect_choices"
 					values	"gui::aspect_values"
 					cvar	r_aspectRatio
@@ -6966,7 +6966,7 @@ windowDef Desktop
 				{
 					rect	468,178,164,18
 					visible	1
-					forecolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
 					textscale	0.24
 					font	"fonts/lowpixel"
 					choices	"#str_200059"
@@ -6999,15 +6999,15 @@ windowDef Desktop
 				{
 					rect	472,207,128,16
 					background	"gfx/guis/mainmenu/slider_bg"
-					matcolor	1,0.745,0.137,0.8
+					matcolor	1,0,0,0.8
 					noevents	1
 					visible	1
 				}
 				sliderDef set_sys_gamma_slider
 				{
 					rect	472,208,71,8
-					forecolor	1,0.745,0.137,0.8
-					matcolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
+					matcolor	1,0,0,0.8
 					low	0.5
 					high	2.0
 					step	0.1
@@ -7022,7 +7022,7 @@ windowDef Desktop
 					cvar	r_brightness
 					textscale	0.24
 					maxchars	1
-					forecolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
 					font	"fonts/lowpixel"
 			
 					onEnter {
@@ -7125,15 +7125,15 @@ windowDef Desktop
 				{
 					rect	472,338,128,16
 					background	"gfx/guis/mainmenu/slider_bg"
-					matcolor	1,0.745,0.137,0.8
+					matcolor	1,0,0,0.8
 					noevents	1
 					visible	1
 				}
 				sliderDef set_sys_vol_slider
 				{
 					rect	472,339,71,8
-					forecolor	1,0.745,0.137,0.8
-					matcolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
+					matcolor	1,0,0,0.8
 					low	0
 					high	2
 					step	0.1
@@ -7153,7 +7153,7 @@ windowDef Desktop
 					cvar	s_volume
 					textscale	0.24
 					maxchars	1
-					forecolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
 					font	"fonts/lowpixel"
 			
 					onEnter {
@@ -7207,15 +7207,15 @@ windowDef Desktop
 				{
 					rect	472,315,128,16
 					background	"gfx/guis/mainmenu/slider_bg"
-					matcolor	1,0.745,0.137,0.8
+					matcolor	1,0,0,0.8
 					noevents	1
 					visible	0
 				}
 				sliderDef set_sys_vol2_slider
 				{
 					rect	472,316,71,8
-					forecolor	1,0.745,0.137,0.8
-					matcolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
+					matcolor	1,0,0,0.8
 					low	0
 					high	1
 					step	0.05
@@ -7251,15 +7251,15 @@ windowDef Desktop
 				{
 					rect	472,339,128,16
 					background	"gfx/guis/mainmenu/slider_bg"
-					matcolor	1,0.745,0.137,0.8
+					matcolor	1,0,0,0.8
 					noevents	1
 					visible	0
 				}
 				sliderDef set_sys_vol3_slider
 				{
 					rect	472,340,71,8
-					forecolor	1,0.745,0.137,0.8
-					matcolor	1,0.745,0.137,0.8
+					forecolor	1,0,0,0.8
+					matcolor	1,0,0,0.8
 					low	0
 					high	1
 					step	0.05
@@ -7517,7 +7517,7 @@ windowDef Desktop
 					{
 						rect	347,118,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200063"
 						cvar	"r_skipNewAmbient"
@@ -7542,7 +7542,7 @@ windowDef Desktop
 					{
 						rect	347,142,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	"r_shadows"
@@ -7567,7 +7567,7 @@ windowDef Desktop
 					{
 						rect	347,166,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200063"
 						cvar	"r_skipSpecular"
@@ -7592,7 +7592,7 @@ windowDef Desktop
 					{
 						rect	347,190,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200063"
 						cvar	"r_skipBump"
@@ -7617,7 +7617,7 @@ windowDef Desktop
 					{
 						rect	347,214,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200063"
 						cvar	"r_skipSky"
@@ -7642,7 +7642,7 @@ windowDef Desktop
 					{
 						rect	347,238,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						gui	"r_forceAmbientOn"
@@ -7658,9 +7658,9 @@ windowDef Desktop
 								set "pop_b_setAdv_6::visible" "1" ;
 								set "pop_setAdv_b6::matcolor" "0.545,0.588,0.294,0.4" ;
 								set "pop_setAdv_ambientbr::forecolor" "1,1,1,0.8" ;
-								set "pop_setAdv_ambientbr_bg::matcolor" "1,0.745,0.137,0.8" ;
-								set "pop_setAdv_ambientbr_val::matcolor" "1,0.745,0.137,0.8" ;
-								set "pop_setAdv_ambientbr_valnum::forecolor" "1,0.745,0.137,0.8" ;
+								set "pop_setAdv_ambientbr_bg::matcolor" "1,0,0,0.8" ;
+								set "pop_setAdv_ambientbr_val::matcolor" "1,0,0,0.8" ;
+								set "pop_setAdv_ambientbr_valnum::forecolor" "1,0,0,0.8" ;
 								set "pop_setAdv_ambientbr_val::noevents" "0" ;
 								consolecmd "set r_forceAmbient 0.7" ;
 							} else {
@@ -7689,7 +7689,7 @@ windowDef Desktop
 						rect	351,267,128,16  
 						background	"gfx/guis/mainmenu/slider_bg"
 
-						matcolor	1,0.745,0.137,0.8
+						matcolor	1,0,0,0.8
 						noevents	1
 						visible 1
 					}
@@ -7697,7 +7697,7 @@ windowDef Desktop
 					{
 						rect	351,268,71,8
 						visible	1
-						matcolor	1,0.745,0.137,0.8
+						matcolor	1,0,0,0.8
 						thumbShader	"gfx/guis/mainmenu/slider_bar"
 						low	0.025
 						high	1.0
@@ -7718,7 +7718,7 @@ windowDef Desktop
 						cvar	r_forceAmbient
 						textscale	0.24
 						maxchars	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						font	"fonts/lowpixel"
 				
 						onEnter {
@@ -7742,7 +7742,7 @@ windowDef Desktop
 					{
 						rect	347,286,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	"r_swapInterval"
@@ -7767,7 +7767,7 @@ windowDef Desktop
 					{
 						rect	347,310,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	1
 						choices	"#str_200165"
 						values	"0;2;4;8;16"
@@ -7799,7 +7799,7 @@ windowDef Desktop
 					{
 						rect	347,334,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	r_useSmp
@@ -8271,7 +8271,7 @@ windowDef Desktop
 					{
 						rect	347,188,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	1
 						choices	"#str_200970"
 						cvar	s_useOpenAL
@@ -8303,7 +8303,7 @@ windowDef Desktop
 					{
 						rect	347,212,150,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	1
 						choices	"gui::device_name"
 						cvar	s_deviceName
@@ -8333,7 +8333,7 @@ windowDef Desktop
 					{
 						rect	347,236,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	0
 						choices	"#str_200059"
 						cvar	s_useEAXReverb
@@ -8362,7 +8362,7 @@ windowDef Desktop
 					{
 						rect	347,260,160,15
 						visible	1
-						forecolor	1,0.745,0.137,0.8
+						forecolor	1,0,0,0.8
 						choiceType	1
 						choices	"#str_200059"
 						cvar	s_numberOfSpeakers
@@ -8729,7 +8729,7 @@ windowDef Desktop
 				{
 					rect	103,82,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Project Lead"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -8738,7 +8738,7 @@ windowDef Desktop
 				{
 					rect	165,100,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Eric Biessman"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -8747,7 +8747,7 @@ windowDef Desktop
 				{
 					rect	103,162,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Art/Animation Lead"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -8756,7 +8756,7 @@ windowDef Desktop
 				{
 					rect	165,180,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Kevin Long"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -8765,7 +8765,7 @@ windowDef Desktop
 				{
 					rect	103,242,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Design Lead"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -8774,7 +8774,7 @@ windowDef Desktop
 				{
 					rect	165,260,426,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Jim Hughes"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -8783,7 +8783,7 @@ windowDef Desktop
 				{
 					rect	103,322,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Programming Leads"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -8792,7 +8792,7 @@ windowDef Desktop
 				{
 					rect	165,340,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Rick Johnson"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -8801,7 +8801,7 @@ windowDef Desktop
 				{
 					rect	165,364,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Jeff Newquist"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -8810,7 +8810,7 @@ windowDef Desktop
 				{
 					rect	103,85,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Project Lead"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -8819,7 +8819,7 @@ windowDef Desktop
 				{
 					rect	165,105,426,25
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Eric Biessman"
 					textscale	.46
 					font	"fonts/strogg"
@@ -8828,7 +8828,7 @@ windowDef Desktop
 				{
 					rect	103,165,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Art/Animation Lead"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -8837,7 +8837,7 @@ windowDef Desktop
 				{
 					rect	165,185,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Kevin Long"
 					textscale	.46
 					font	"fonts/strogg"
@@ -8846,7 +8846,7 @@ windowDef Desktop
 				{
 					rect	103,245,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Design Lead"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -8855,7 +8855,7 @@ windowDef Desktop
 				{
 					rect	165,265,426,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Jim Hughes"
 					textscale	.46
 					font	"fonts/strogg"
@@ -8864,7 +8864,7 @@ windowDef Desktop
 				{
 					rect	103,325,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Programming Leads"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -8873,7 +8873,7 @@ windowDef Desktop
 				{
 					rect	165,345,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Rick Johnson"
 					textscale	.46
 					font	"fonts/strogg"
@@ -8882,7 +8882,7 @@ windowDef Desktop
 				{
 					rect	165,369,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Jeff Newquist"
 					textscale	.46
 					font	"fonts/strogg"
@@ -8892,56 +8892,56 @@ windowDef Desktop
 					rect	-221,81,223,24
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen1_bar2
 				{
 					rect	-275,161,277,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen1_bar3
 				{
 					rect	-212,241,214,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen1_bar4
 				{
 					rect	-273,321,275,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen1_bar1
 				{
 					rect	0,81,222,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen1_bar2
 				{
 					rect	0,161,277,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen1_bar3
 				{
 					rect	0,241,213,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen1_bar4
 				{
 					rect	0,321,274,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 			windowDef p_screen2
@@ -9084,7 +9084,7 @@ windowDef Desktop
 				{
 					rect	103,81,433,19
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Audio Leads"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9093,7 +9093,7 @@ windowDef Desktop
 				{
 					rect	165,99,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Zachary Quarles"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -9102,7 +9102,7 @@ windowDef Desktop
 				{
 					rect	165,123,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Kevin Schilder"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -9111,7 +9111,7 @@ windowDef Desktop
 				{
 					rect	103,188,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Studio Head"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9120,7 +9120,7 @@ windowDef Desktop
 				{
 					rect	165,205,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Brian Raffel"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -9129,7 +9129,7 @@ windowDef Desktop
 				{
 					rect	103,268,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Director of Product Development"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9138,7 +9138,7 @@ windowDef Desktop
 				{
 					rect	165,285,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Michael Crowns"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -9147,7 +9147,7 @@ windowDef Desktop
 				{
 					rect	103,348,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Line Producer"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9156,7 +9156,7 @@ windowDef Desktop
 				{
 					rect	165,365,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Rosalie Kofsky"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -9165,7 +9165,7 @@ windowDef Desktop
 				{
 					rect	103,84,433,19
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Audio Leads"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -9174,7 +9174,7 @@ windowDef Desktop
 				{
 					rect	165,104,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Zachary Quarles"
 					textscale	.46
 					font	"fonts/strogg"
@@ -9183,7 +9183,7 @@ windowDef Desktop
 				{
 					rect	165,128,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Kevin Schilder"
 					textscale	.46
 					font	"fonts/strogg"
@@ -9192,7 +9192,7 @@ windowDef Desktop
 				{
 					rect	103,191,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Studio Head"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -9201,7 +9201,7 @@ windowDef Desktop
 				{
 					rect	165,210,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Brian Raffel"
 					textscale	.46
 					font	"fonts/strogg"
@@ -9210,7 +9210,7 @@ windowDef Desktop
 				{
 					rect	103,271,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Director of Product Development"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -9219,7 +9219,7 @@ windowDef Desktop
 				{
 					rect	165,290,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Michael Crowns"
 					textscale	.46
 					font	"fonts/strogg"
@@ -9228,7 +9228,7 @@ windowDef Desktop
 				{
 					rect	103,351,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Line Producer"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -9237,7 +9237,7 @@ windowDef Desktop
 				{
 					rect	165,370,425,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Rosalie Kofsky"
 					textscale	.46
 					font	"fonts/strogg"
@@ -9247,56 +9247,56 @@ windowDef Desktop
 					rect	-211,79,213,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen2_bar2
 				{
 					rect	-214,188,216,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen2_bar3
 				{
 					rect	-391,268,393,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen2_bar4
 				{
 					rect	-234,348,236,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen2_bar1
 				{
 					rect	0,79,213,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen2_bar2
 				{
 					rect	0,188,216,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen2_bar3
 				{
 					rect	0,268,393,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen2_bar4
 				{
 					rect	0,348,236,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 			windowDef p_screen3
@@ -9575,7 +9575,7 @@ windowDef Desktop
 				{
 					rect	103,94,433,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Art
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -9584,7 +9584,7 @@ windowDef Desktop
 				{
 					rect	123,123,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Fred Hooper - Assistant Art Lead"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9593,7 +9593,7 @@ windowDef Desktop
 				{
 					rect	123,143,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Djordje Cakovan"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9602,7 +9602,7 @@ windowDef Desktop
 				{
 					rect	123,163,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Derrick Hammond"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9611,7 +9611,7 @@ windowDef Desktop
 				{
 					rect	123,183,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Kim Lathrop"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9620,7 +9620,7 @@ windowDef Desktop
 				{
 					rect	123,203,380,19
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Caryn Law"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9629,7 +9629,7 @@ windowDef Desktop
 				{
 					rect	123,223,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Simon Mills"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9638,7 +9638,7 @@ windowDef Desktop
 				{
 					rect	123,243,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Nichol Norman"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9647,7 +9647,7 @@ windowDef Desktop
 				{
 					rect	123,263,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Isaac Owens"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9656,7 +9656,7 @@ windowDef Desktop
 				{
 					rect	123,283,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Kurt Richards"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9665,7 +9665,7 @@ windowDef Desktop
 				{
 					rect	123,303,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Paul Richards"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9674,7 +9674,7 @@ windowDef Desktop
 				{
 					rect	123,323,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Arnie Swekel"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9683,7 +9683,7 @@ windowDef Desktop
 				{
 					rect	123,343,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Andrew Trabbold"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9692,7 +9692,7 @@ windowDef Desktop
 				{
 					rect	123,363,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Matt Vainio"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9701,7 +9701,7 @@ windowDef Desktop
 				{
 					rect	344,274,283,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Art"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -9710,7 +9710,7 @@ windowDef Desktop
 				{
 					rect	364,303,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Les Dorscheid"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9719,7 +9719,7 @@ windowDef Desktop
 				{
 					rect	364,323,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Mark Nelson"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9728,7 +9728,7 @@ windowDef Desktop
 				{
 					rect	364,343,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Todd Rueping"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9737,7 +9737,7 @@ windowDef Desktop
 				{
 					rect	364,363,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jeff Unay"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -9746,7 +9746,7 @@ windowDef Desktop
 				{
 					rect	103,99,433,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Art
 					textscale	0.46
 					font	"fonts/strogg"
@@ -9755,7 +9755,7 @@ windowDef Desktop
 				{
 					rect	123,126,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Fred Hooper - Assistant Art Lead"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9764,7 +9764,7 @@ windowDef Desktop
 				{
 					rect	123,146,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Djordje Cakovan"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9773,7 +9773,7 @@ windowDef Desktop
 				{
 					rect	123,166,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Derrick Hammond"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9782,7 +9782,7 @@ windowDef Desktop
 				{
 					rect	123,186,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Kim Lathrop"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9791,7 +9791,7 @@ windowDef Desktop
 				{
 					rect	123,206,380,19
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Caryn Law"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9800,7 +9800,7 @@ windowDef Desktop
 				{
 					rect	123,226,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Simon Mills"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9809,7 +9809,7 @@ windowDef Desktop
 				{
 					rect	123,246,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Nichol Norman"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9818,7 +9818,7 @@ windowDef Desktop
 				{
 					rect	123,266,380,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Isaac Owens"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9827,7 +9827,7 @@ windowDef Desktop
 				{
 					rect	123,286,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Kurt Richards"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9836,7 +9836,7 @@ windowDef Desktop
 				{
 					rect	123,306,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Paul Richards"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9845,7 +9845,7 @@ windowDef Desktop
 				{
 					rect	123,326,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Arnie Swekel"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9854,7 +9854,7 @@ windowDef Desktop
 				{
 					rect	123,346,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Andrew Trabbold"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9863,7 +9863,7 @@ windowDef Desktop
 				{
 					rect	123,366,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Matt Vainio"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9872,7 +9872,7 @@ windowDef Desktop
 				{
 					rect	344,279,283,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Art"
 					textscale	0.46
 					font	"fonts/strogg"
@@ -9881,7 +9881,7 @@ windowDef Desktop
 				{
 					rect	364,306,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Les Dorscheid"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9890,7 +9890,7 @@ windowDef Desktop
 				{
 					rect	364,326,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Mark Nelson"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9899,7 +9899,7 @@ windowDef Desktop
 				{
 					rect	364,346,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Todd Rueping"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9908,7 +9908,7 @@ windowDef Desktop
 				{
 					rect	364,366,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jeff Unay"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -9918,14 +9918,14 @@ windowDef Desktop
 					rect	-256,92,256,32
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen3_bar2
 				{
 					rect	640,273,311,32
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen3_bar1
@@ -9933,14 +9933,14 @@ windowDef Desktop
 					rect	-100,92,256,32
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen3_bar2
 				{
 					rect	329,273,311,32
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 			}
@@ -10100,7 +10100,7 @@ windowDef Desktop
 				{
 					rect	103,115,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Animation
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -10109,7 +10109,7 @@ windowDef Desktop
 				{
 					rect	122,144,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Michael Pleva - Assistant Animation Lead"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10118,7 +10118,7 @@ windowDef Desktop
 				{
 					rect	122,164,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Michael Egnew"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10127,7 +10127,7 @@ windowDef Desktop
 				{
 					rect	122,184,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"David Gulisano"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10136,7 +10136,7 @@ windowDef Desktop
 				{
 					rect	122,204,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Nick Maggiore"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10145,7 +10145,7 @@ windowDef Desktop
 				{
 					rect	103,252,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Animation"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -10154,7 +10154,7 @@ windowDef Desktop
 				{
 					rect	122,281,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Robert Gee"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10163,7 +10163,7 @@ windowDef Desktop
 				{
 					rect	122,301,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Dan Hay - Cinematic Consultant"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10172,7 +10172,7 @@ windowDef Desktop
 				{
 					rect	122,321,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Kimberly Sanchez"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10181,7 +10181,7 @@ windowDef Desktop
 				{
 					rect	122,341,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jarrod Showers"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10190,7 +10190,7 @@ windowDef Desktop
 				{
 					rect	122,361,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ryan Watson"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10199,7 +10199,7 @@ windowDef Desktop
 				{
 					rect	103,119,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Animation
 					textscale	0.46
 					font	"fonts/strogg"
@@ -10208,7 +10208,7 @@ windowDef Desktop
 				{
 					rect	122,147,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Michael Pleva - Assistant Animation Lead"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10217,7 +10217,7 @@ windowDef Desktop
 				{
 					rect	122,167,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Michael Egnew"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10226,7 +10226,7 @@ windowDef Desktop
 				{
 					rect	122,187,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"David Gulisano"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10235,7 +10235,7 @@ windowDef Desktop
 				{
 					rect	122,207,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Nick Maggiore"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10244,7 +10244,7 @@ windowDef Desktop
 				{
 					rect	103,256,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Animation"
 					textscale	0.46
 					font	"fonts/strogg"
@@ -10253,7 +10253,7 @@ windowDef Desktop
 				{
 					rect	122,284,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Robert Gee"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10262,7 +10262,7 @@ windowDef Desktop
 				{
 					rect	122,304,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Dan Hay - Cinematic Consultant"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10271,7 +10271,7 @@ windowDef Desktop
 				{
 					rect	122,324,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Kimberly Sanchez"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10280,7 +10280,7 @@ windowDef Desktop
 				{
 					rect	122,344,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jarrod Showers"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10289,7 +10289,7 @@ windowDef Desktop
 				{
 					rect	122,364,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ryan Watson"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10299,28 +10299,28 @@ windowDef Desktop
 					rect	-217,114,218,32
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen4_bar2
 				{
 					rect	-340,251,341,32
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen4_bar1
 				{
 					rect	0,114,218,32
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen4_bar2
 				{
 					rect	0,251,341,32
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 			windowDef p_screen5
@@ -10522,7 +10522,7 @@ windowDef Desktop
 				{
 					rect	103,104,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Level Design"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -10531,7 +10531,7 @@ windowDef Desktop
 				{
 					rect	122,133,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ken Banks"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10540,7 +10540,7 @@ windowDef Desktop
 				{
 					rect	122,153,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Robert Bettenberg"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10549,7 +10549,7 @@ windowDef Desktop
 				{
 					rect	122,173,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Chad Bordwell"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10558,7 +10558,7 @@ windowDef Desktop
 				{
 					rect	122,193,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Matt Breit"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10567,7 +10567,7 @@ windowDef Desktop
 				{
 					rect	122,213,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Roger Cordes"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10576,7 +10576,7 @@ windowDef Desktop
 				{
 					rect	122,233,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ford Dye"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10585,7 +10585,7 @@ windowDef Desktop
 				{
 					rect	122,253,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Mike Majernik"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10594,7 +10594,7 @@ windowDef Desktop
 				{
 					rect	122,273,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Scott McNutt"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10603,7 +10603,7 @@ windowDef Desktop
 				{
 					rect	122,293,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Corey Peters"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10612,7 +10612,7 @@ windowDef Desktop
 				{
 					rect	122,313,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Michael Renner"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10621,7 +10621,7 @@ windowDef Desktop
 				{
 					rect	122,333,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Andrew Weldon"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10630,7 +10630,7 @@ windowDef Desktop
 				{
 					rect	122,353,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Patrick Williams"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -10639,7 +10639,7 @@ windowDef Desktop
 				{
 					rect	103,108,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Level Design"
 					textscale	0.46
 					font	"fonts/strogg"
@@ -10648,7 +10648,7 @@ windowDef Desktop
 				{
 					rect	122,136,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ken Banks"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10657,7 +10657,7 @@ windowDef Desktop
 				{
 					rect	122,156,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Robert Bettenberg"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10666,7 +10666,7 @@ windowDef Desktop
 				{
 					rect	122,176,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Chad Bordwell"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10675,7 +10675,7 @@ windowDef Desktop
 				{
 					rect	122,196,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Matt Breit"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10684,7 +10684,7 @@ windowDef Desktop
 				{
 					rect	122,216,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Roger Cordes"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10693,7 +10693,7 @@ windowDef Desktop
 				{
 					rect	122,236,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ford Dye"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10702,7 +10702,7 @@ windowDef Desktop
 				{
 					rect	122,256,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Mike Majernik"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10711,7 +10711,7 @@ windowDef Desktop
 				{
 					rect	122,276,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Scott McNutt"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10720,7 +10720,7 @@ windowDef Desktop
 				{
 					rect	122,296,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Corey Peters"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10729,7 +10729,7 @@ windowDef Desktop
 				{
 					rect	122,316,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Michael Renner"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10738,7 +10738,7 @@ windowDef Desktop
 				{
 					rect	122,336,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Andrew Weldon"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10747,7 +10747,7 @@ windowDef Desktop
 				{
 					rect	122,356,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Patrick Williams"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -10757,14 +10757,14 @@ windowDef Desktop
 					rect	-245,104,245,32
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen5_bar1
 				{
 					rect	0,104,245,32
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 			windowDef p_screen6
@@ -11113,7 +11113,7 @@ windowDef Desktop
 				{
 					rect	103,54,433,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Programming
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -11122,7 +11122,7 @@ windowDef Desktop
 				{
 					rect	123,83,380,19
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Aaron Bahr"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11131,7 +11131,7 @@ windowDef Desktop
 				{
 					rect	123,103,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Gretchen Carlson"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11140,7 +11140,7 @@ windowDef Desktop
 				{
 					rect	123,123,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Bryan Dube"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11149,7 +11149,7 @@ windowDef Desktop
 				{
 					rect	123,143,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Jeff Dischler"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11158,7 +11158,7 @@ windowDef Desktop
 				{
 					rect	123,163,380,19
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"David Dynerman"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11167,7 +11167,7 @@ windowDef Desktop
 				{
 					rect	123,183,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Michael Ekberg"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11176,7 +11176,7 @@ windowDef Desktop
 				{
 					rect	123,203,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Michael Chang Gummelt"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11185,7 +11185,7 @@ windowDef Desktop
 				{
 					rect	123,223,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Dwight Luetscher"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11194,7 +11194,7 @@ windowDef Desktop
 				{
 					rect	123,243,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"James Monroe"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11203,7 +11203,7 @@ windowDef Desktop
 				{
 					rect	123,263,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Nathan Rausch"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11212,7 +11212,7 @@ windowDef Desktop
 				{
 					rect	123,283,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Aurelio Reis"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11221,7 +11221,7 @@ windowDef Desktop
 				{
 					rect	123,303,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Allison Salmon"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11230,7 +11230,7 @@ windowDef Desktop
 				{
 					rect	123,323,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"John J. Scott"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11239,7 +11239,7 @@ windowDef Desktop
 				{
 					rect	123,343,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Jim Shepard"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11248,7 +11248,7 @@ windowDef Desktop
 				{
 					rect	123,362,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"James Singer"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11257,7 +11257,7 @@ windowDef Desktop
 				{
 					rect	123,382,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Anthony Whitaker"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11266,7 +11266,7 @@ windowDef Desktop
 				{
 					rect	123,402,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Marcus Whitlock"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11275,7 +11275,7 @@ windowDef Desktop
 				{
 					rect	344,233,283,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Programming"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -11284,7 +11284,7 @@ windowDef Desktop
 				{
 					rect	364,262,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ste Cork "
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11293,7 +11293,7 @@ windowDef Desktop
 				{
 					rect	364,282,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Keith Fuller"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11302,7 +11302,7 @@ windowDef Desktop
 				{
 					rect	364,302,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Gil Gribb"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11311,7 +11311,7 @@ windowDef Desktop
 				{
 					rect	364,322,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Steve Houchard"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11320,7 +11320,7 @@ windowDef Desktop
 				{
 					rect	364,342,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ryan Hummer"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11329,7 +11329,7 @@ windowDef Desktop
 				{
 					rect	364,362,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Chuck Nicholson"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11338,7 +11338,7 @@ windowDef Desktop
 				{
 					rect	364,382,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Christopher Reed"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11347,7 +11347,7 @@ windowDef Desktop
 				{
 					rect	364,402,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Kerry Sergent"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11356,7 +11356,7 @@ windowDef Desktop
 				{
 					rect	103,58,433,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Programming
 					textscale	0.46
 					font	"fonts/strogg"
@@ -11365,7 +11365,7 @@ windowDef Desktop
 				{
 					rect	123,86,380,19
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Aaron Bahr"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11374,7 +11374,7 @@ windowDef Desktop
 				{
 					rect	123,106,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Gretchen Carlson"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11383,7 +11383,7 @@ windowDef Desktop
 				{
 					rect	123,126,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Bryan Dube"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11392,7 +11392,7 @@ windowDef Desktop
 				{
 					rect	123,146,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Jeff Dischler"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11401,7 +11401,7 @@ windowDef Desktop
 				{
 					rect	123,166,380,19
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"David Dynerman"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11410,7 +11410,7 @@ windowDef Desktop
 				{
 					rect	123,186,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Michael Ekberg"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11419,7 +11419,7 @@ windowDef Desktop
 				{
 					rect	123,206,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Michael Chang Gummelt"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11428,7 +11428,7 @@ windowDef Desktop
 				{
 					rect	123,226,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Dwight Luetscher"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11437,7 +11437,7 @@ windowDef Desktop
 				{
 					rect	123,246,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"James Monroe"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11446,7 +11446,7 @@ windowDef Desktop
 				{
 					rect	123,266,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Nathan Rausch"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11455,7 +11455,7 @@ windowDef Desktop
 				{
 					rect	123,286,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Aurelio Reis"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11464,7 +11464,7 @@ windowDef Desktop
 				{
 					rect	123,306,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Allison Salmon"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11473,7 +11473,7 @@ windowDef Desktop
 				{
 					rect	123,326,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"John J. Scott"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11482,7 +11482,7 @@ windowDef Desktop
 				{
 					rect	123,346,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Jim Shepard"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11491,7 +11491,7 @@ windowDef Desktop
 				{
 					rect	123,365,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"James Singer"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11500,7 +11500,7 @@ windowDef Desktop
 				{
 					rect	123,385,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Anthony Whitaker"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11509,7 +11509,7 @@ windowDef Desktop
 				{
 					rect	123,405,380,20
 					visible	1
-					forecolor	0.835,1,0.654,0
+					forecolor	1,0,0,0
 					text	"Marcus Whitlock"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11518,7 +11518,7 @@ windowDef Desktop
 				{
 					rect	344,237,283,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Programming"
 					textscale	0.46
 					font	"fonts/strogg"
@@ -11527,7 +11527,7 @@ windowDef Desktop
 				{
 					rect	364,265,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ste Cork"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11536,7 +11536,7 @@ windowDef Desktop
 				{
 					rect	364,285,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Keith Fuller"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11545,7 +11545,7 @@ windowDef Desktop
 				{
 					rect	364,305,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Gil Gribb"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11554,7 +11554,7 @@ windowDef Desktop
 				{
 					rect	364,325,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Steve Houchard"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11563,7 +11563,7 @@ windowDef Desktop
 				{
 					rect	364,345,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ryan Hummer"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11572,7 +11572,7 @@ windowDef Desktop
 				{
 					rect	364,365,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Chuck Nicholson"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11581,7 +11581,7 @@ windowDef Desktop
 				{
 					rect	364,385,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Christopher Reed"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11590,7 +11590,7 @@ windowDef Desktop
 				{
 					rect	364,405,263,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Kerry Sergent"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11600,14 +11600,14 @@ windowDef Desktop
 					rect	-255,54,256,32
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen6_bar2
 				{
 					rect	640,232,311,32
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen6_bar1
@@ -11615,14 +11615,14 @@ windowDef Desktop
 					rect	0,54,256,32
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen6_bar2
 				{
 					rect	329,232,311,32
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 			}
@@ -11810,7 +11810,7 @@ windowDef Desktop
 				{
 					rect	103,81,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Motion Capture Lead"
 					textscale	0.24
 					font	"fonts/lowpixel"
@@ -11819,7 +11819,7 @@ windowDef Desktop
 				{
 					rect	122,97,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Bobby Duncanson"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11828,7 +11828,7 @@ windowDef Desktop
 				{
 					rect	103,133,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Motion Capture"
 					textscale	0.24
 					font	"fonts/lowpixel"
@@ -11837,7 +11837,7 @@ windowDef Desktop
 				{
 					rect	122,149,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jerry Ashworth"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11846,7 +11846,7 @@ windowDef Desktop
 				{
 					rect	103,185,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Motion Capture"
 					textscale	0.24
 					font	"fonts/lowpixel"
@@ -11855,7 +11855,7 @@ windowDef Desktop
 				{
 					rect	122,201,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jeff Degenhardt"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11864,7 +11864,7 @@ windowDef Desktop
 				{
 					rect	122,221,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Nick Stevenson"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11873,7 +11873,7 @@ windowDef Desktop
 				{
 					rect	103,258,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Writer
 					textscale	0.24
 					font	"fonts/lowpixel"
@@ -11882,7 +11882,7 @@ windowDef Desktop
 				{
 					rect	122,273,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Bob Love"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11891,7 +11891,7 @@ windowDef Desktop
 				{
 					rect	103,310,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Internal Quality Assurance"
 					textscale	0.24
 					font	"fonts/lowpixel"
@@ -11900,7 +11900,7 @@ windowDef Desktop
 				{
 					rect	122,325,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ryan Jackson"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11909,7 +11909,7 @@ windowDef Desktop
 				{
 					rect	103,362,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Internal Quality Assurance"
 					textscale	0.24
 					font	"fonts/lowpixel"
@@ -11918,7 +11918,7 @@ windowDef Desktop
 				{
 					rect	122,377,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jason Robinson"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -11927,7 +11927,7 @@ windowDef Desktop
 				{
 					rect	103,83,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Motion Capture Lead"
 					textscale	0.28
 					font	"fonts/strogg"
@@ -11936,7 +11936,7 @@ windowDef Desktop
 				{
 					rect	122,100,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Bobby Duncanson"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11945,7 +11945,7 @@ windowDef Desktop
 				{
 					rect	103,135,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Motion Capture"
 					textscale	0.28
 					font	"fonts/strogg"
@@ -11954,7 +11954,7 @@ windowDef Desktop
 				{
 					rect	122,152,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jerry Ashworth"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11963,7 +11963,7 @@ windowDef Desktop
 				{
 					rect	103,187,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Motion Capture"
 					textscale	0.28
 					font	"fonts/strogg"
@@ -11972,7 +11972,7 @@ windowDef Desktop
 				{
 					rect	122,204,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jeff Degenhardt"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11981,7 +11981,7 @@ windowDef Desktop
 				{
 					rect	122,224,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Nick Stevenson"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -11990,7 +11990,7 @@ windowDef Desktop
 				{
 					rect	103,260,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Writer
 					textscale	0.28
 					font	"fonts/strogg"
@@ -11999,7 +11999,7 @@ windowDef Desktop
 				{
 					rect	122,276,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Bob Love"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -12008,7 +12008,7 @@ windowDef Desktop
 				{
 					rect	103,312,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Internal Quality Assurance"
 					textscale	0.28
 					font	"fonts/strogg"
@@ -12017,7 +12017,7 @@ windowDef Desktop
 				{
 					rect	122,328,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Ryan Jackson"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -12026,7 +12026,7 @@ windowDef Desktop
 				{
 					rect	103,364,432,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Additional Internal Quality Assurance"
 					textscale	0.28
 					font	"fonts/strogg"
@@ -12035,7 +12035,7 @@ windowDef Desktop
 				{
 					rect	122,380,379,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jason Robinson"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -12045,84 +12045,84 @@ windowDef Desktop
 					rect	-262,79,263,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen7_bar2
 				{
 					rect	-223,131,224,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen7_bar3
 				{
 					rect	-297,183,298,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen7_bar4
 				{
 					rect	-160,256,161,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen7_bar5
 				{
 					rect	-300,308,301,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef screen7_bar6
 				{
 					rect	-364,359,364,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen7_bar1
 				{
 					rect	0,79,258,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen7_bar2
 				{
 					rect	0,131,219,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen7_bar3
 				{
 					rect	0,183,293,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen7_bar4
 				{
 					rect	0,256,156,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen7_bar5
 				{
 					rect	0,308,296,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen7_bar6
 				{
 					rect	0,359,364,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 			windowDef p_screen8
@@ -12398,7 +12398,7 @@ windowDef Desktop
 				{
 					rect	350,175,275,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Executive Producer"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -12407,7 +12407,7 @@ windowDef Desktop
 				{
 					rect	103,174,216,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Tim Willits"
 					textscale	.35
 					font	"fonts/lowpixel"
@@ -12416,7 +12416,7 @@ windowDef Desktop
 				{
 					rect	350,203,274,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Sound Design"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -12425,7 +12425,7 @@ windowDef Desktop
 				{
 					rect	103,202,215,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Christian Antkow"
 					textscale	.35
 					font	"fonts/lowpixel"
@@ -12434,7 +12434,7 @@ windowDef Desktop
 				{
 					rect	350,231,274,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Programming
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -12443,7 +12443,7 @@ windowDef Desktop
 				{
 					rect	103,230,215,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Timothee Besset"
 					textscale	.35
 					font	"fonts/lowpixel"
@@ -12452,7 +12452,7 @@ windowDef Desktop
 				{
 					rect	350,259,274,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Design
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -12461,7 +12461,7 @@ windowDef Desktop
 				{
 					rect	103,258,215,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Mal Blackwell"
 					textscale	.35
 					font	"fonts/lowpixel"
@@ -12470,7 +12470,7 @@ windowDef Desktop
 				{
 					rect	350,287,274,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Programming
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -12479,7 +12479,7 @@ windowDef Desktop
 				{
 					rect	103,286,215,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Robert Duffy "
 					textscale	.35
 					font	"fonts/lowpixel"
@@ -12488,7 +12488,7 @@ windowDef Desktop
 				{
 					rect	350,315,274,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"QUAKE II Xbox Programming"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -12497,7 +12497,7 @@ windowDef Desktop
 				{
 					rect	103,314,215,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Brian Harris"
 					textscale	.35
 					font	"fonts/lowpixel"
@@ -12506,7 +12506,7 @@ windowDef Desktop
 				{
 					rect	350,343,274,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Design
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -12515,7 +12515,7 @@ windowDef Desktop
 				{
 					rect	103,342,215,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Jerry Keehan"
 					textscale	.35
 					font	"fonts/lowpixel"
@@ -12524,7 +12524,7 @@ windowDef Desktop
 				{
 					rect	350,371,274,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Art
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -12533,7 +12533,7 @@ windowDef Desktop
 				{
 					rect	103,370,215,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Kenneth Scott"
 					textscale	.35
 					font	"fonts/lowpixel"
@@ -12542,7 +12542,7 @@ windowDef Desktop
 				{
 					rect	350,399,274,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Programming
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -12551,7 +12551,7 @@ windowDef Desktop
 				{
 					rect	103,398,215,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Jan Paul van Waveren"
 					textscale	.35
 					font	"fonts/lowpixel"
@@ -12569,7 +12569,7 @@ windowDef Desktop
 				{
 					rect	350,179,277,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Executive Producer"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -12578,7 +12578,7 @@ windowDef Desktop
 				{
 					rect	103,178,216,19
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Tim Willits"
 					textscale	.4
 					font	"fonts/strogg"
@@ -12587,7 +12587,7 @@ windowDef Desktop
 				{
 					rect	350,207,276,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Sound Design"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -12596,7 +12596,7 @@ windowDef Desktop
 				{
 					rect	103,206,216,19
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Christian Antkow"
 					textscale	.4
 					font	"fonts/strogg"
@@ -12605,7 +12605,7 @@ windowDef Desktop
 				{
 					rect	350,235,276,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Programming
 					textscale	0.35
 					font	"fonts/strogg"
@@ -12614,7 +12614,7 @@ windowDef Desktop
 				{
 					rect	103,234,216,19
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Timothee Besset"
 					textscale	.4
 					font	"fonts/strogg"
@@ -12623,7 +12623,7 @@ windowDef Desktop
 				{
 					rect	350,263,276,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Design
 					textscale	0.35
 					font	"fonts/strogg"
@@ -12632,7 +12632,7 @@ windowDef Desktop
 				{
 					rect	103,262,216,19
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Mal Blackwell"
 					textscale	.4
 					font	"fonts/strogg"
@@ -12641,7 +12641,7 @@ windowDef Desktop
 				{
 					rect	350,291,276,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Programming
 					textscale	0.35
 					font	"fonts/strogg"
@@ -12650,7 +12650,7 @@ windowDef Desktop
 				{
 					rect	103,290,216,19
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Robert Duffy "
 					textscale	.4
 					font	"fonts/strogg"
@@ -12659,7 +12659,7 @@ windowDef Desktop
 				{
 					rect	350,319,276,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"QUAKE II Xbox Programming"
 					textscale	0.35
 					font	"fonts/strogg"
@@ -12668,7 +12668,7 @@ windowDef Desktop
 				{
 					rect	103,318,216,19
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Brian Harris"
 					textscale	.4
 					font	"fonts/strogg"
@@ -12677,7 +12677,7 @@ windowDef Desktop
 				{
 					rect	350,347,276,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Design
 					textscale	0.35
 					font	"fonts/strogg"
@@ -12686,7 +12686,7 @@ windowDef Desktop
 				{
 					rect	103,346,216,19
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Jerry Keehan"
 					textscale	.45
 					font	"fonts/strogg"
@@ -12695,7 +12695,7 @@ windowDef Desktop
 				{
 					rect	350,375,276,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Art
 					textscale	0.35
 					font	"fonts/strogg"
@@ -12704,7 +12704,7 @@ windowDef Desktop
 				{
 					rect	103,374,216,19
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Kenneth Scott"
 					textscale	.45
 					font	"fonts/strogg"
@@ -12713,7 +12713,7 @@ windowDef Desktop
 				{
 					rect	350,403,276,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Programming
 					textscale	0.35
 					font	"fonts/strogg"
@@ -12722,7 +12722,7 @@ windowDef Desktop
 				{
 					rect	103,402,216,19
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Jan Paul van Waveren"
 					textscale	.45
 					font	"fonts/strogg"
@@ -12732,7 +12732,7 @@ windowDef Desktop
 					rect	640,175,302,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef screen8_bar2
@@ -12740,7 +12740,7 @@ windowDef Desktop
 					rect	640,203,302,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef screen8_bar3
@@ -12748,7 +12748,7 @@ windowDef Desktop
 					rect	640,231,302,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef screen8_bar4
@@ -12756,7 +12756,7 @@ windowDef Desktop
 					rect	640,259,302,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef screen8_bar5
@@ -12764,7 +12764,7 @@ windowDef Desktop
 					rect	640,287,302,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef screen8_bar6
@@ -12772,7 +12772,7 @@ windowDef Desktop
 					rect	640,315,302,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef screen8_bar7
@@ -12780,7 +12780,7 @@ windowDef Desktop
 					rect	640,343,302,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef screen8_bar8
@@ -12788,7 +12788,7 @@ windowDef Desktop
 					rect	640,371,302,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef screen8_bar9
@@ -12796,7 +12796,7 @@ windowDef Desktop
 					rect	640,399,302,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen8_bar1
@@ -12804,7 +12804,7 @@ windowDef Desktop
 					rect	337,175,302,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen8_bar2
@@ -12812,7 +12812,7 @@ windowDef Desktop
 					rect	337,203,302,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen8_bar3
@@ -12820,7 +12820,7 @@ windowDef Desktop
 					rect	337,231,302,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen8_bar4
@@ -12828,7 +12828,7 @@ windowDef Desktop
 					rect	337,259,302,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen8_bar5
@@ -12836,7 +12836,7 @@ windowDef Desktop
 					rect	337,287,302,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen8_bar6
@@ -12844,7 +12844,7 @@ windowDef Desktop
 					rect	337,315,302,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen8_bar7
@@ -12852,7 +12852,7 @@ windowDef Desktop
 					rect	337,343,302,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen8_bar8
@@ -12860,7 +12860,7 @@ windowDef Desktop
 					rect	337,371,302,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 				windowDef d_screen8_bar9
@@ -12868,7 +12868,7 @@ windowDef Desktop
 					rect	337,399,302,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 					matscalex	-1
 				}
 			}
@@ -13212,7 +13212,7 @@ windowDef Desktop
 				{
 					rect	103,81,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Voiceover
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -13221,7 +13221,7 @@ windowDef Desktop
 				{
 					rect	122,110,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Peter Stormare"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13230,7 +13230,7 @@ windowDef Desktop
 				{
 					rect	122,130,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Charles Napier"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13239,7 +13239,7 @@ windowDef Desktop
 				{
 					rect	122,150,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Michael Gannon"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13248,7 +13248,7 @@ windowDef Desktop
 				{
 					rect	122,170,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Dave Earnest"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13257,7 +13257,7 @@ windowDef Desktop
 				{
 					rect	122,190,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Khary Payton"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13266,7 +13266,7 @@ windowDef Desktop
 				{
 					rect	122,210,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Danny Cooksey"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13275,7 +13275,7 @@ windowDef Desktop
 				{
 					rect	122,230,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Andre Sogliuzzo"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13284,7 +13284,7 @@ windowDef Desktop
 				{
 					rect	122,250,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Dimitri Diatchenko"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13293,7 +13293,7 @@ windowDef Desktop
 				{
 					rect	122,270,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Greg Eagles"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13302,7 +13302,7 @@ windowDef Desktop
 				{
 					rect	122,290,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Kat Cressida"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13311,7 +13311,7 @@ windowDef Desktop
 				{
 					rect	122,310,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Phil La Marr"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13320,7 +13320,7 @@ windowDef Desktop
 				{
 					rect	122,330,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Steven Jay Blum"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13329,7 +13329,7 @@ windowDef Desktop
 				{
 					rect	122,350,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Wally Wingert"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13338,7 +13338,7 @@ windowDef Desktop
 				{
 					rect	122,370,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Andre Ware"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -13473,7 +13473,7 @@ windowDef Desktop
 				{
 					rect	103,87,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	Voiceover
 					textscale	0.41
 					font	"fonts/strogg"
@@ -13482,7 +13482,7 @@ windowDef Desktop
 				{
 					rect	122,113,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Peter Stormare"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13491,7 +13491,7 @@ windowDef Desktop
 				{
 					rect	122,133,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Charles Napier"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13500,7 +13500,7 @@ windowDef Desktop
 				{
 					rect	122,153,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Michael Gannon"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13509,7 +13509,7 @@ windowDef Desktop
 				{
 					rect	122,173,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Dave Earnest"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13518,7 +13518,7 @@ windowDef Desktop
 				{
 					rect	122,193,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Khary Payton"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13527,7 +13527,7 @@ windowDef Desktop
 				{
 					rect	122,213,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Danny Cooksey"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13536,7 +13536,7 @@ windowDef Desktop
 				{
 					rect	122,233,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Andre Sogliuzzo"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13545,7 +13545,7 @@ windowDef Desktop
 				{
 					rect	122,253,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Dimitri Diatchenko"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13554,7 +13554,7 @@ windowDef Desktop
 				{
 					rect	122,273,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Greg Eagles"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13563,7 +13563,7 @@ windowDef Desktop
 				{
 					rect	122,293,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Kat Cressida"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13572,7 +13572,7 @@ windowDef Desktop
 				{
 					rect	122,313,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Phil La Marr"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13581,7 +13581,7 @@ windowDef Desktop
 				{
 					rect	122,333,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Steven Jay Blum"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13590,7 +13590,7 @@ windowDef Desktop
 				{
 					rect	122,353,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Wally Wingert"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13599,7 +13599,7 @@ windowDef Desktop
 				{
 					rect	122,373,200,20
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Andre Ware"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -13735,14 +13735,14 @@ windowDef Desktop
 					rect	-217,81,218,32
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen9_bar1
 				{
 					rect	0,81,218,32
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 			windowDef p_screen10
@@ -13842,7 +13842,7 @@ windowDef Desktop
 				{
 					rect	103,148,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Casting and Voice Direction"
 					textscale	0.35
 					font	"fonts/lowpixel"
@@ -13851,7 +13851,7 @@ windowDef Desktop
 				{
 					rect	122,172,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Margaret Tang"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -13860,7 +13860,7 @@ windowDef Desktop
 				{
 					rect	122,197,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Womb Music"
 					textscale	0.35
 					font	"fonts/lowpixel"
@@ -13869,7 +13869,7 @@ windowDef Desktop
 				{
 					rect	103,253,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Voice Over Recording, Editing and Post"
 					textscale	0.35
 					font	"fonts/lowpixel"
@@ -13878,7 +13878,7 @@ windowDef Desktop
 				{
 					rect	122,277,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Rik Schaffer"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -13887,7 +13887,7 @@ windowDef Desktop
 				{
 					rect	122,302,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Womb Music"
 					textscale	0.35
 					font	"fonts/lowpixel"
@@ -13896,7 +13896,7 @@ windowDef Desktop
 				{
 					rect	103,152,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Casting and Voice Direction"
 					textscale	0.38
 					font	"fonts/strogg"
@@ -13905,7 +13905,7 @@ windowDef Desktop
 				{
 					rect	122,176,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Margaret Tang"
 					textscale	0.45
 					font	"fonts/strogg"
@@ -13914,7 +13914,7 @@ windowDef Desktop
 				{
 					rect	122,201,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Womb Music"
 					textscale	0.38
 					font	"fonts/strogg"
@@ -13923,7 +13923,7 @@ windowDef Desktop
 				{
 					rect	103,257,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Voice Over Recording, Editing and Post"
 					textscale	0.38
 					font	"fonts/strogg"
@@ -13932,7 +13932,7 @@ windowDef Desktop
 				{
 					rect	122,281,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Rik Schaffer"
 					textscale	0.45
 					font	"fonts/strogg"
@@ -13941,7 +13941,7 @@ windowDef Desktop
 				{
 					rect	122,306,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Womb Music"
 					textscale	0.38
 					font	"fonts/strogg"
@@ -13958,21 +13958,21 @@ windowDef Desktop
 					rect	-477,254,478,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen10_bar1
 				{
 					rect	0,150,370,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen10_bar2
 				{
 					rect	0,254,478,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 			windowDef p_screen11
@@ -14090,7 +14090,7 @@ windowDef Desktop
 				{
 					rect	103,162,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Multiplayer Updates"
 					textscale	0.31
 					font	"fonts/lowpixel"
@@ -14099,7 +14099,7 @@ windowDef Desktop
 				{
 					rect	165,185,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Timothee Besset"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -14108,7 +14108,7 @@ windowDef Desktop
 				{
 					rect	165,215,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Adam Pyle"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -14117,7 +14117,7 @@ windowDef Desktop
 				{
 					rect	165,245,426,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Christopher Lays"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -14126,7 +14126,7 @@ windowDef Desktop
 				{
 					rect	165,275,426,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Anthony Jacques"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -14135,7 +14135,7 @@ windowDef Desktop
 				{
 					rect	165,305,426,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Marco Genise"
 					textscale	.4
 					font	"fonts/lowpixel"
@@ -14144,7 +14144,7 @@ windowDef Desktop
 				{
 					rect	103,165,434,20
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Multiplayer Updates"
 					textscale	0.34
 					font	"fonts/strogg"
@@ -14153,7 +14153,7 @@ windowDef Desktop
 				{
 					rect	165,188,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Timothee Besset"
 					textscale	.45
 					font	"fonts/strogg"
@@ -14162,7 +14162,7 @@ windowDef Desktop
 				{
 					rect	165,218,426,30
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Adam Pyle"
 					textscale	.45
 					font	"fonts/strogg"
@@ -14171,7 +14171,7 @@ windowDef Desktop
 				{
 					rect	165,248,426,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Christopher Lays"
 					textscale	.45
 					font	"fonts/strogg"
@@ -14180,7 +14180,7 @@ windowDef Desktop
 				{
 					rect	165,278,426,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Anthony Jacques"
 					textscale	.45
 					font	"fonts/strogg"
@@ -14189,7 +14189,7 @@ windowDef Desktop
 				{
 					rect	165,308,426,29
 					visible	1
-					forecolor	0.839,1,0.658,0
+					forecolor	1,0,0,0
 					text	"Marco Genise"
 					textscale	.45
 					font	"fonts/strogg"
@@ -14199,14 +14199,14 @@ windowDef Desktop
 					rect	-275,166,276,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen11_bar1
 				{
 					rect	0,166,276,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 			windowDef p_screen12
@@ -14290,7 +14290,7 @@ windowDef Desktop
 				{
 					rect	103,148,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Theme for Quake4 Produced by"
 					textscale	0.35
 					font	"fonts/lowpixel"
@@ -14299,7 +14299,7 @@ windowDef Desktop
 				{
 					rect	122,172,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Chris Vrenna"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -14308,7 +14308,7 @@ windowDef Desktop
 				{
 					rect	103,253,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Theme for Quake4 Composed by"
 					textscale	0.35
 					font	"fonts/lowpixel"
@@ -14317,7 +14317,7 @@ windowDef Desktop
 				{
 					rect	122,277,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Clint Walsh"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -14326,7 +14326,7 @@ windowDef Desktop
 				{
 					rect	103,152,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Theme for Quake4 Produced by"
 					textscale	0.38
 					font	"fonts/strogg"
@@ -14335,7 +14335,7 @@ windowDef Desktop
 				{
 					rect	122,176,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Chris Vrenna"
 					textscale	0.45
 					font	"fonts/strogg"
@@ -14344,7 +14344,7 @@ windowDef Desktop
 				{
 					rect	103,257,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Theme for Quake4 Composed by"
 					textscale	0.38
 					font	"fonts/strogg"
@@ -14353,7 +14353,7 @@ windowDef Desktop
 				{
 					rect	122,281,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Clint Walsh"
 					textscale	0.45
 					font	"fonts/strogg"
@@ -14370,21 +14370,21 @@ windowDef Desktop
 					rect	-476,254,478,23
 					visible	1
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen12_bar1
 				{
 					rect	0,150,404,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 				windowDef d_screen12_bar2
 				{
 					rect	0,254,416,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 			windowDef p_screen13
@@ -14546,7 +14546,7 @@ windowDef Desktop
 				{
 					rect	103,101,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Special Thanks"
 					textscale	0.35
 					font	"fonts/lowpixel"
@@ -14555,7 +14555,7 @@ windowDef Desktop
 				{
 					rect	103,105,432,30
 					visible	1
-					forecolor	1,0.501,0,0
+					forecolor	1,0,0,0
 					text	"Special Thanks"
 					textscale	0.4
 					font	"fonts/strogg"
@@ -14564,7 +14564,7 @@ windowDef Desktop
 				{
 					rect	122,125,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Splash Damage"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -14573,7 +14573,7 @@ windowDef Desktop
 				{
 					rect	121,129,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Splash Damage"
 					textscale	0.51
 					font	"fonts/strogg"
@@ -14582,7 +14582,7 @@ windowDef Desktop
 				{
 					rect	122,150,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Carlo Vogelsang - Creative"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -14591,7 +14591,7 @@ windowDef Desktop
 				{
 					rect	121,154,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Carlo Vogelsang - Creative"
 					textscale	0.51
 					font	"fonts/strogg"
@@ -14601,7 +14601,7 @@ windowDef Desktop
 				{
 					rect	122,200,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Squirrel Eiserloh - Ritual code"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -14610,7 +14610,7 @@ windowDef Desktop
 				{
 					rect	121,204,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Squirrel Eiserloh - Ritual code"
 					textscale	0.51
 					font	"fonts/strogg"
@@ -14619,7 +14619,7 @@ windowDef Desktop
 				{
 					rect	122,225,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Eric Fowler - Ritual code"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -14628,7 +14628,7 @@ windowDef Desktop
 				{
 					rect	121,229,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Eric Fowler - Ritual code"
 					textscale	0.51
 					font	"fonts/strogg"
@@ -14637,7 +14637,7 @@ windowDef Desktop
 				{
 					rect	122,250,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Todd Rose - Ritual levels"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -14646,7 +14646,7 @@ windowDef Desktop
 				{
 					rect	121,254,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Todd Rose - Ritual levels"
 					textscale	0.51
 					font	"fonts/strogg"
@@ -14655,7 +14655,7 @@ windowDef Desktop
 				{
 					rect	122,175,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jason Kim - id Software"
 					textscale	0.4
 					font	"fonts/lowpixel"
@@ -14664,7 +14664,7 @@ windowDef Desktop
 				{
 					rect	121,179,379,30
 					visible	1
-					forecolor	0.831,1,0.650,0
+					forecolor	1,0,0,0
 					text	"Jason Kim - id Software"
 					textscale	0.51
 					font	"fonts/strogg"
@@ -14682,7 +14682,7 @@ windowDef Desktop
 					rect	0,102,250,23
 					visible	0
 					background	"gfx/guis/mainmenu/creditsbar"
-					matcolor	1,0.501,0,1
+					matcolor	1,0,0,1
 				}
 			}
 		}
@@ -16969,11 +16969,11 @@ windowDef Desktop
 			notime	1
 
 			onTime 0 {
-				transition "raven::matcolor" "0,0,0,1" "0.839,1,0.658,1" "1000" ;
+				transition "raven::matcolor" "0,0,0,1" "1,0,0,1" "1000" ;
 			}
 
 			onTime +3000 {
-				transition "raven::matcolor" "0.839,1,0.658,1" "0,0,0,1" "1000" ;
+				transition "raven::matcolor" "1,0,0,1" "0,0,0,1" "1000" ;
 			}
 
 			onTime +1000 {
@@ -19169,9 +19169,9 @@ windowDef Desktop
 				set "gui::r_forceAmbientOn" "1" ;
 				set "pop_setAdv_b6::matcolor" "0.545,0.588,0.294,0.4" ;
 				set "pop_setAdv_ambientbr::forecolor" "1,1,1,0.8" ;
-				set "pop_setAdv_ambientbr_bg::matcolor" "1,0.745,0.137,0.8" ;
-				set "pop_setAdv_ambientbr_val::matcolor" "1,0.745,0.137,0.8" ;
-				set "pop_setAdv_ambientbr_valnum::forecolor" "1,0.745,0.137,0.8" ;
+				set "pop_setAdv_ambientbr_bg::matcolor" "1,0,0,0.8" ;
+				set "pop_setAdv_ambientbr_val::matcolor" "1,0,0,0.8" ;
+				set "pop_setAdv_ambientbr_valnum::forecolor" "1,0,0,0.8" ;
 				set "pop_setAdv_ambientbr_val::noevents" "0" ;
 			} else {
 				set "pop_b_setAdv_6::visible" "0" ;

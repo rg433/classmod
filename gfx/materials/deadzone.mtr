@@ -1,0 +1,172 @@
+textures/mptextures/deadzone_capturezone
+{
+	noSelfShadow
+	noshadows
+	translucent
+	nonsolid
+	twosided
+
+	qer_editorimage textures/mptextures/deadzone_neutral_d.tga
+
+	{
+		if(parm7 == 0)
+		blend add
+		map textures/mptextures/deadzone_marine_d.tga
+		translate time * 0.25, 0
+	}		
+	{
+		if(parm7 == 1)
+		blend add
+		map textures/mptextures/deadzone_strogg_d.tga
+		translate time * 0.25, 0
+	}		
+	{
+		if(parm7 == 2)
+		blend add
+		map textures/mptextures/deadzone_neutral_d.tga
+		translate time * 0.25, 0
+	}		
+	{
+		if(parm7 == 3)
+		blend add
+		map textures/mptextures/deadzone_contested_d.tga
+		translate time * 0.25, 0
+		rgb sinTable[ time * 2 ]
+	}		
+}
+
+textures/mptextures/deadzone_zone_marine
+{
+	noSelfShadow
+	noshadows
+	translucent
+	nonsolid
+	twosided
+
+	qer_editorimage textures/mptextures/deadzone_zone_marine_d.tga
+
+	{
+		blend add
+		map textures/mptextures/deadzone_zone_marine_d.tga
+		translate time * 0.25, 0
+	}
+}
+
+textures/mptextures/deadzone_zone_strogg
+{
+	noSelfShadow
+	noshadows
+	translucent
+	nonsolid
+	twosided
+
+	qer_editorimage textures/mptextures/deadzone_zone_strogg_d.tga
+
+	{
+		blend add
+		map textures/mptextures/deadzone_zone_strogg_d.tga
+		translate time * 0.25, 0
+	}
+}
+
+textures/mptextures/deadzone_zone_hold
+{
+	noSelfShadow
+	noshadows
+	translucent
+	nonsolid
+	twosided
+
+	qer_editorimage textures/mptextures/deadzone_zone_hold_d.tga
+
+	{
+		blend add
+		map textures/mptextures/deadzone_zone_hold_d.tga
+		translate time * 0.25, 0
+	}
+}
+
+textures/decals/deadzone_neutral_arrow
+{
+	qer_editorimage textures/decals/deadzone_neutral_arrow_d.tga
+	DECAL_MACRO
+	noShadows
+	noimpact
+	translucent
+	
+	{	
+		blend add
+		map textures/decals/deadzone_neutral_arrow_d.tga
+	}
+}
+
+
+models/pick_ups/mp_pickups/mp_q4x_deadzonetik
+{
+	  noselfShadow
+	//unSmoothedTangents
+	
+    
+	diffuseMap		models/pick_ups/mp_pickups/mp_q4x_deadzonetik_d.tga
+	bumpmap			models/pick_ups/mp_pickups/mp_q4x_deadzonetik_local.tga
+	specularMap		models/pick_ups/mp_pickups/mp_q4x_deadzonetik_s.tga
+	
+	{
+	
+	blend add
+	
+	map				models/pick_ups/mp_pickups/mp_q4x_deadzonetik_add.tga
+	
+	}
+	
+	
+	{
+	    blend add
+	    maskalpha
+       	cubeMap		gfx/env/marhelmet
+        texgen		reflect
+		red   Parm0
+		green Parm1
+		blue  Parm2
+	}								
+}
+
+models/pick_ups/mp_pickups/mp_ring_deadzone
+{
+	  noselfShadow
+	unSmoothedTangents
+	
+	renderBump  -size 128 128 -aa 2 -mergeHigh -trace .05 models/pick_ups/mp_pickups/ctf_ring_local.tga  work/models/pick_ups/mp_pickups/ctf_ring_high.lwo
+   
+    
+	bumpMap			addnormals (models/pick_ups/mp_pickups/ctf_ring_local.tga, heightmap(models/pick_ups/mp_pickups/ctf_ring_h.tga, 2))
+	diffuseMap		models/pick_ups/mp_pickups/ctf_ring_d.tga
+	specularMap		models/pick_ups/mp_pickups/ctf_ring_s.tga
+	
+	{
+		blend		add
+		map			models/pick_ups/mp_pickups/ctf_ring_glow.tga
+			colored
+		red		 0.85
+		green	 0.45
+		blue	 0.2
+		
+	}				
+	
+	{	
+		maskcolor				
+	    map	makealpha(models/pick_ups/mp_pickups/ctf_ring_mask.tga)
+	}
+
+	{
+	    blend GL_DST_ALPHA, gl_one
+	    maskalpha
+       	cubeMap		gfx/env/marhelmet
+        texgen		reflect
+		red   Parm0
+		green Parm1
+		blue  Parm2
+	}								
+}
+
+guide gfx/guis/hud/simpleicons/deadzone icon_simple_colored( simpleicons/item_deadzone, 0.93, 0.84, 0.52 )

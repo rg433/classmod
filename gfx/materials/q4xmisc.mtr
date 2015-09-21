@@ -1,0 +1,239 @@
+
+guide textures/q4x_powercore/ba_panel1_1 generic_full_noheight("q4x_powercore/ba_panel1_1")
+guide textures/tram/tr_support_04dusty generic_Localvariant("tram/tr_support_04", "tram/tr_support_04dusty" )
+guide textures/q4x_powercore/c_ribwall generic_full_noheight("q4x_powercore/c_ribwall")
+guide textures/q4x_m10/sh2_floorrun1 generic_shader("q4x_m10/sh2_floorrun1")
+guide textures/q4x_m10/sh2_floorrun2 generic_shader("q4x_m10/sh2_floorrun2")
+guide textures/q4x_m10/walltrim1_1 generic_shader("q4x_m10/walltrim1_1")
+guide textures/q4x_speeder/grate_big02_1 generic_alpha("q4x_speeder/grate_big02_1")
+guide textures/common_walls/c_support02 generic_materialimageshader("common_walls/c_support02")
+
+textures/medlabs/vol_lblue_256
+
+// light blue flare intended to be used over a large area to give the impression of volumetric light
+{
+	noshadows
+	translucent
+	nonsolid
+	deform	flare 		256
+	qer_EditorImage	textures/common_misc/QER_flare.tga
+	{
+		blend add
+		map _quadratic
+		red 		.9
+		green		.9
+		blue		1
+		alpha	.1
+		vertexcolor
+	}
+}
+
+
+textures/q4x_speeder/speed_pipe01
+{
+	qer_editorimage textures/q4x_speeder/speed_pipe01_d.tga
+
+	diffusemap 		textures/q4x_speeder/speed_pipe01_d.tga
+    bumpmap			textures/q4x_speeder/speed_pipe01_local.tga
+	specularmap 	textures/q4x_speeder/speed_pipe01_s.tga
+	
+}
+
+textures/common_lights/light1_1_waste_orange_to_red
+// CHECK
+{
+	qer_EditorImage	textures/common_lights/light1_1_d.tga
+	bumpMap			textures/common_lights/light1_1_local.tga
+	diffuseMap		textures/common_lights/light1_1_d.tga
+	specularMap		textures/common_lights/light1_1_s.tga
+	{
+		if		(parm4 == 0)
+		blend		add
+		map		textures/common_lights/light1_1_add.tga
+		red		0.64
+		green		0.40
+		blue		0.15
+	}
+	
+	{	if		(parm4 && time - parm4 < 2.5 )
+		blend		add
+		map		textures/common_lights/light1_1_add.tga
+		red		waste_lighttex_1_1_orange_to_red_r[(time-parm4)*2]
+		green		waste_lighttex_1_1_orange_to_red_g[(time-parm4)*2]
+		blue		waste_lighttex_1_1_orange_to_red_b[(time-parm4)*2]
+	}
+	
+	{
+		if		(parm4 && time - parm4 >= 0.5)
+		map		textures/common_lights/light1_1_add.tga
+		red		0.52*waste_bb_pulse[(time-parm4-0.5)*0.5]
+		green		0
+		blue		0
+		zeroClamp
+	}
+
+// CHECK
+}
+
+textures/flares/flare_8_waste_light_1_1_orange_to_red
+// CHECK
+{
+	noshadows
+	translucent
+	nonsolid
+	deform	flare	8
+	qer_EditorImage	textures/editor/qer_flare.tga
+	{
+		if		(parm4 == 0)
+		blend		add
+		map		_quadratic
+		red		0.64
+		green		0.40
+		blue		0.15
+	}
+	
+	{	if		(parm4 && time - parm4 < 2.5 )
+		blend		add
+		map		_quadratic
+		red		waste_lighttex_1_1_orange_to_red_r[(time-parm4)*2]
+		green		waste_lighttex_1_1_orange_to_red_g[(time-parm4)*2]
+		blue		waste_lighttex_1_1_orange_to_red_b[(time-parm4)*2]
+	}
+	
+	{
+		if		(parm4 && time - parm4 >= 0.5)
+		map		_quadratic
+		red		0.52*waste_bb_pulse[(time-parm4-0.5)*0.5]
+		green		0
+		blue		0
+		zeroClamp
+	}
+// CHECK
+}
+
+textures/q4x_lights/rect_light8_blue
+{
+	qer_editorimage textures/common_lights/rect_light8_d.tga
+
+	bumpmap addnormals ( textures/common_lights/rect_light8_local.tga, heightmap ( textures/common_lights/rect_light8_h.tga, 1 ) )
+	diffusemap	textures/common_lights/rect_light8_d.tga
+	specularmap	textures/common_lights/rect_light8_s.tga
+	{
+		if (parm4 == 0)
+		blend		add
+		map		textures/common_lights/rect_light8_g.tga
+		red		0.50 
+		green		0.50  
+		blue		0.90
+	}
+
+}
+
+textures/q4x_speeder/tubeframe01
+{
+	qer_editorimage 		textures/q4x_speeder/speed_tube01_d.tga
+	twoSided
+	noshadows
+	translucent
+
+	bumpmap 				textures/q4x_speeder/speed_tube01_local.tga
+	
+	{       
+		blend				diffuseMap 
+		map					textures/q4x_speeder/speed_tube01_d.tga
+		alphaTest .5
+	}
+	
+	specularmap				textures/q4x_speeder/speed_tube01_s.tga
+}
+
+textures/q4x_speeder/tubefluid_red
+{
+	noShadows
+	twoSided
+	
+	materialType glass
+	
+	qer_editorimage 			textures/q4x_speeder/Fluid01.tga
+
+	{
+		blend diffuseMap	
+		map 					textures/q4x_speeder/Fluid01.tga
+		scale 1, 0.1
+		scroll time * 0.0, time * 0.9
+	}
+
+	{
+		blend GL_ONE, GL_ONE
+		map 					textures/q4x_speeder/Fluid02.tga
+		scale 0.6, 0.175
+		scroll time * 0., time * 2
+	}
+
+	{
+		blend GL_DST_COLOR, GL_ONE
+		map 					textures/q4x_speeder/Fluid01.tga
+		scale 1.75, 1.2
+		scroll time * 0, time * 2.2
+	}
+
+}
+
+textures/q4x/sky_stars
+{
+	noFragment
+	forceOpaque
+	noshadows
+	noimpact
+	{
+		blend		add		// so transparent windows can draw on top of it
+		cameraCubeMap	gfx/env/q4xstars
+		texgen		skybox
+	}
+}
+
+lights/ceiling01_1_lit
+{
+	lightFalloffImage	makeIntensity( gfx/lights/ceiling01_1_lit.tga )
+
+	{
+		map gfx/lights/ceiling01_1_lit.tga
+		colored
+		zeroClamp
+	}
+}
+
+textures/glass/ueglass
+ {
+	noSelfShadow
+	noshadows
+	twosided
+	translucent
+	glass
+	forceoverlays
+	sort decal
+	
+	materialType	glass
+	
+	qer_editorimage textures/glass/outdoorglass1_mask
+
+	{
+		blend		GL_ZERO,GL_ZERO
+		map	_black
+	}
+		
+	{
+	    blend add
+       	cubeMap		gfx/env/uereflect
+        texgen		reflect
+		red Parm0
+		green Parm1
+		blue  Parm2
+	}
+	
+	{
+		blend filter
+		map textures/glass/outdoorglass1_mask.tga
+	}
+	
+}

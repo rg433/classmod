@@ -1,0 +1,11 @@
+skin skins/items/ammo/flamegun_pickup
+{
+	"models/items/ammo/ammo_box"		"models/items/ammo/flamegun_holo"
+	"models/items/ammo/icon"		"textures/common/nodraw"
+}
+
+skin skins/items/ammo/flamegun
+{
+	"models/items/ammo/ammo_box"	"models/items/ammo/flamegun"
+	"models/items/ammo/icon"		"models/items/ammo/flamegun_decal"
+}

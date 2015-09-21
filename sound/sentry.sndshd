@@ -1,0 +1,143 @@
+
+
+sound sentry_hover
+{
+	description	"sentry flying around, being grody"
+
+	minDistance	40
+	maxDistance	800
+	volumeDb	0
+	frequentlyused
+	looping
+
+	sound/strogg/sentry/sentry_hover
+	shakeData 0 hookmllpqpnjkinlknighjjklgjjsnnijjopmmlmilkliihjlkkjgd
+}
+
+
+
+sound sentry_breathe
+{
+	description	"sentry gurgling away"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/sentry/breath01
+	shakeData 0 bhhimnjnxvuqjnihfheeccaaaaa
+	sound/strogg/sentry/breath02
+	shakeData 1 etxoxjhhfeccbaaa
+	sound/strogg/sentry/breath03
+	shakeData 2 cgmprponmrvvwxuunjjhiihecbaaaaa
+}
+
+
+sound sentry_fire
+{
+	description	"sentry gurgling away"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+	frequentlyused
+
+	sound/strogg/sentry/fire1
+	shakeData 0 zzzvvojghdddcbbbaaaaaaa
+	sound/strogg/sentry/fire2
+	shakeData 1 zzzvukigfeeeccbbbaaaaaaaaa
+}
+
+
+sound sentry_sight
+{
+	description	"sentry gurgling away"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/sentry/voice_1
+	shakeData 0 covzzzzzzzzzzzzzzzzzzzzzzzzzxzyxxvrvzutqllihhgigebaaaaaaaaaa
+	sound/strogg/sentry/voice_3
+	shakeData 1 cjmtwyvuwzyyyzzzzzzzzzzzzzzzzzzvrmmgijjgfbaaa
+}
+
+
+sound sentry_growl
+{
+	description	"sentry gurgling away"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/sentry/growl1
+	shakeData 0 hlorruvxxwwyzyzzyxxxtkgdccbaaaaa
+	sound/strogg/sentry/growl2
+	shakeData 1 bioquxytwwrrrsqtpsrpklljdcbaaaaa
+}
+
+
+sound sentry_chatter
+{
+	description	"sentry gurgling away"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/sentry/voice_2
+	shakeData 0 dlngighkmmnuonutqrurpmpqkovwnlohglrollhegdgmnxwuusvwssofbcbaaaaaaaa
+	sound/strogg/sentry/voice_4
+	shakeData 1 dehgipwxvxyxxzvyqtvmhkhhprkfgehjlotspoposzwxuyuwsxxspkhfecbbbbbbaaaaaa
+	sound/strogg/sentry/voice_6
+	shakeData 2 bcbbcejnnojhffeedfddgiffglnniijilkswqopsytuwsoqsqqcaaa
+}
+
+
+sound sentry_chatter_combat
+{
+	description	"sentry gurgling away"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/sentry/voice_5
+	shakeData 0 vutrvwywxtpwrsxwvwusuwytvqxysvxvnpwrprztunpgifecbaa
+	sound/strogg/sentry/voice_7
+	shakeData 1 aeokfhjnhmrpnihhgiihggefeegfggefgheedfgghhinmqopsqppqssqrqdcceddedeeeecdcccbcbcbbbbbbbaaaaaaaaaaaaaaaa
+	sound/strogg/sentry/voice_8
+	shakeData 2 bccfgjipvwwxwrtxsunplkmkqwkvpmnjloqmnqrxyxzuqoxvruuqvtxvytqqmnjigfhhigfeedddcccbbbaaaaaa
+}
+
+
+sound sentry_pain
+{
+	description	"sentry gurgling away"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/sentry/pain1
+	shakeData 0 bmtwwtyyytpsrljllkjiijhhedccbaaaaaaaaaaa
+	sound/strogg/sentry/pain2
+	shakeData 1 bmnpppusutxxwvywxtrplmlkklkkkkkkcbaaaaa
+}
+
+
+sound sentry_die
+{
+	description	"sentry gurgling away"
+
+	minDistance	40
+	maxDistance	1200
+	volumeDb	0
+
+	sound/strogg/sentry/die1
+	shakeData 0 dgwyyyzyzzyzzyvyyxutvuvvvttsssuussqppkjjijhhgfgfffedaaa
+	sound/strogg/sentry/die2
+	shakeData 1 fkmvrpqpqoosrvxuyzwzyzywzyxvrtomvrlvopqiilnrqkppouomnhiggiidebbaaaaaaaa
+}

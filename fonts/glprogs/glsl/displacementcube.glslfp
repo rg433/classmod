@@ -1,0 +1,45 @@
+uniform samplerCube  CubeImage;
+uniform sampler2D    DisplacementMap;
+uniform sampler2D    Image;
+
+varying vec2 texCoord;
+varying vec2 newTexCoord;
+varying vec4 colorFragment;
+
+uniform float scrollX, scrollY;
+uniform float sizeX, sizeY;
+uniform float texCoordSize;
+
+varying vec3 vNormal;
+varying vec3 vViewVec;
+
+void main(void)
+{
+	// Moved linear computations to vertex shader
+/*
+   vec2    newTexCoord = texCoord;
+
+   vec2    newSize = vec2( sizeX * 0.5 + 1.5, sizeY * 0.5 + 1.5 );
+   vec2    newScroll = vec2( scrollX, scrollY );
+
+   newScroll *= 0.2;
+
+   vec2   tempTexCoord = newTexCoord - vec2( 0.5, 0.5 );
+
+   tempTexCoord *= newSize;
+   tempTexCoord += newScroll;
+
+   newTexCoord = tempTexCoord + vec2( 0.5, 0.5 );
+*/   
+   vec2   offset = texture2D( DisplacementMap, newTexCoord ).st;
+   offset *= texCoordSize;
+   
+   vec3 normal = normalize(vNormal);
+   vec3 reflVec =  reflect( -vViewVec, normal);
+   vec4 refl = textureCube( CubeImage, reflVec +  vec3( offset.x + offset.y, offset.x, offset.y ) * 128.0 );
+   vec4 straight = texture2D( Image, texCoord + offset );
+   
+   gl_FragColor = vec4( refl.rgb + straight.rgb, 1.0 ) * colorFragment;
+//   gl_FragColor = colorFragment;
+}
+

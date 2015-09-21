@@ -1,0 +1,619 @@
+
+
+sound door_default_locked
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/default/lock
+	shakeData 0 defeegeggggfgc
+}
+
+
+sound door_default_open
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/default/open
+	shakeData 0 rpturomliefekggdccbaaaaaaaa
+}
+
+
+sound door_default_opened
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/default/opened
+	shakeData 0 ghifdeieefdbcbbbdcaaaaaabbaaaaaaaaa
+}
+
+
+sound door_default_close
+{
+	minDistance	39
+	maxDistance	196
+	volumeDb	-12
+	no_occlusion
+
+	sound/doors/default/close
+	shakeData 0 bceiighfeffggeffeecaaaa
+}
+
+
+sound door_default_closed
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/default/closed
+	shakeData 0 cignnmponkljhhifffffddecbbbaaaaaaaa
+}
+
+
+sound network_blastdoor_unlock
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/network_blastdoor/unlock
+	shakeData 0 kwkghhgfedccbbaaaaaaaa
+}
+
+
+sound network_blastdoor_open
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/network_blastdoor/open
+	shakeData 0 xvxyxvprmhkgpklgefdbbbbbbbbaaaaaaaaaaa
+}
+
+
+sound network_blastdoor_opened
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/network_blastdoor/opened
+	shakeData 0 wrsvnhmwjlnhegdefifccbbbbdcbaaaaaaaa
+}
+
+
+sound network_blastdoor_close
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/network_blastdoor/close
+	shakeData 0 mwtlljgfjjhhhihfecbaaaa
+}
+
+
+sound network_blastdoor_closed
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/network_blastdoor/closed
+	shakeData 0 wrsvnhmwjlnhegdefifccbbbbdcbaaaaaaaa
+}
+
+
+sound network_ventdoor_open
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+
+	sound/doors/network_ventdoor/open
+	shakeData 0 dcjffdcbbaaaaa
+}
+
+
+sound network_ventdoor_opened
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+
+	sound/doors/network_ventdoor/opened
+	shakeData 0 kkjfidfcbba
+}
+
+
+sound network_ventdoor_close
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/network_ventdoor/close
+	shakeData 0 kikjijjhgfdcbbaaaaa
+}
+
+
+sound network_ventdoor_closed
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/network_ventdoor/closed
+	shakeData 0 fjkhkiiefecddcbbaaaaaaaa
+}
+
+
+sound big_metal_open
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/big_metal/open
+	shakeData 0 beenxtqlimoppnsoonlnolkkiihgfeeddcbbbbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound big_metal_opened
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/big_metal/opened
+	shakeData 0 vvwwnljuukmphjfgefddjfdcbdbccbddcbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound big_metal_close
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/big_metal/close
+	shakeData 0 pswvnlktrjlnhhfgeeddifdcbcbbbbcccbaaaaaaaaaa
+}
+
+
+sound big_metal_closed
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/big_metal/closed
+	shakeData 0 ksmmxuwsnlhjfggehffddecdbbbbbaaaaaaaaaaaaaaaaaa
+}
+
+sound hangar1_latchdoor_unlock
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/big_metal/unlock
+	shakeData 0 nywzzysqppomljigffeeedccbbbbabaaaaaaa
+}
+
+
+sound hangar1_latchdoor_open
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/big_metal/open
+	shakeData 0 beenxtqlimoppnsoonlnolkkiihgfeeddcbbbbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound hangar1_latchdoor_opened
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/big_metal/opened
+	shakeData 0 vvwwnljuukmphjfgefddjfdcbdbccbddcbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound hangar1_latchdoor_close
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/big_metal/close
+	shakeData 0 pswvnlktrjlnhhfgeeddifdcbcbbbbcccbaaaaaaaaaa
+}
+
+
+sound hangar1_latchdoor_closed
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/big_metal/closed
+	shakeData 0 ksmmxuwsnlhjfggehffddecdbbbbbaaaaaaaaaaaaaaaaaa
+}
+
+
+sound putra_conveyor_beep
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+
+	sound/doors/putra_conveyor/beep
+	shakeData 0 tquuqqkhhbaaa
+}
+
+
+sound door_dispersal_chain
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/dispersal_chain/dispersal_chain
+	shakeData 0 ootvmihffffghgjomjgfgfeomhhihqkfefggifddcdddddccddhggddcccbccccdedihfddcddgedddeeggeedejesljffhfegecccbbbbbbbaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound hangar_bay_door_open
+{
+	minDistance	400
+	maxDistance	2500
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/hangar_bay/open
+	shakeData 0 lmywyzyyxxyzywxzxvxtrsmnomjihgfeedccbbbbbaaaaaaaaaaaaaa
+}
+
+
+sound hangar_bay_door_opened
+{
+	minDistance	400
+	maxDistance	2500
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/hangar_bay/stop
+	shakeData 0 hsqrvtruvuqppqormmiinjijfhggeeeefdeddbcccdbbbbbbbababaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound hangar_bay_door_move
+{
+	minDistance	80
+	maxDistance	2500
+	volumeDb	-7
+	no_occlusion
+	looping
+
+	sound/doors/hangar_bay/loop
+	shakeData 0 hgffdedfhhheggdddceffhgfifgglilhgioiqxpgggeelhcfedcedffdeedfccdcdfhdgfikjhgfhjghehhkgffmnnmiegfffeedfedfchffdghfgfcddeeeef
+}
+
+
+sound hangar_bay_door_close
+{
+	minDistance	400
+	maxDistance	2500
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/hangar_bay/open
+	shakeData 0 lmywyzyyxxyzywxzxvxtrsmnomjihgfeedccbbbbbaaaaaaaaaaaaaa
+}
+
+
+sound hangar_bay_door_open_special
+{
+	minDistance	400
+	maxDistance	4000
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/hangar_bay/open
+	shakeData 0 hsqrvtruvuqppqormmiinjijfhggeeeefdeddbcccdbbbbbbbababaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+sound hangar_bay_door_close_special
+{
+	minDistance	400
+	maxDistance	4000
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/hangar_bay/stop
+	shakeData 0 hsqrvtruvuqppqormmiinjijfhggeeeefdeddbcccdbbbbbbbababaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+sound hangar_bay_door_move_special
+{
+	minDistance	400
+	maxDistance	4000
+	volumeDb	0
+	no_occlusion
+	looping
+
+	sound/doors/hangar_bay/loop
+	shakeData 0 hgffdedfhhheggdddceffhgfifgglilhgioiqxpgggeelhcfedcedffdeedfccdcdfhdgfikjhgfhjghehhkgffmnnmiegfffeedfedfchffdghfgfcddeeeef
+}
+
+
+sound hangar_bay_door_closed_special
+{
+	minDistance	400
+	maxDistance	4000
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/hangar_bay/stop
+	shakeData 0 hsqrvtruvuqppqormmiinjijfhggeeeefdeddbcccdbbbbbbbababaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound hangar_bay_door_closed
+{
+	minDistance	400
+	maxDistance	2500
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/hangar_bay/stop
+	shakeData 0 hsqrvtruvuqppqormmiinjijfhggeeeefdeddbcccdbbbbbbbababaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound mcc_door_locked
+{
+	minDistance	39
+	maxDistance	590
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/default/lock
+	shakeData 0 defeegeggggfgc
+}
+
+
+sound mcc_door_open
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/mcc/open
+	shakeData 0 ejtwxtxrvupmifeddccbaaaa
+}
+
+
+sound mcc_door_opened
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/mcc/close
+	shakeData 0 hotyvrumppjlnohgfdcbbaaaaaaaa
+}
+
+
+sound mcc_door_close
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/mcc/close
+	shakeData 0 hotyvrumppjlnohgfdcbbaaaaaaaa
+}
+
+
+sound waste_plat_start
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/waste_plat/start
+	shakeData 0 fgfvkhfikpkikedeaaaaaaaa
+}
+
+
+sound waste_plat_stop
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/waste_plat/stop
+	shakeData 0 ceusmhgggfffeeedccbbbaaaaaaaaaaa
+}
+
+
+sound storage_firedoor_open
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/storage_firedoor/open
+	shakeData 0 pwwvwtupqttsqxyuuuqsxspsikhhfffgedcecedecbbaaaaaaaaaa
+}
+
+sound storage_firedoor_move
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+	looping
+
+	sound/doors/storage_firedoor/move
+	shakeData 0 llnmmklrpqqtogijkktpsuophnnklm
+}
+
+
+sound storage_firedoor_close
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/storage_firedoor/close
+	shakeData 0 yyxxxxqplrsrprrvwxuxvssstnnpnlijiffggffcdddcbbcbbbaaaaaaaaaaaaaaaaa
+}
+
+
+sound floor_hatch_handle
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/floor_hatch/handle
+	shakeData 0 hnquzviedddcccccccccceccbbcccccbbbbbbbbbbbbccddedcbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound floor_hatch_open
+{
+	minDistance	195
+	maxDistance	975
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/floor_hatch/open
+	shakeData 0 bemwunjiggfhfdcdcbbbbaaaaaaaaaa
+}
+
+
+sound big_hatch_handle
+{
+	minDistance	400
+	maxDistance	1200
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/floor_hatch/big_handle
+	shakeData 0 ooopnmlnolmgggheghgffgggefdgeefhfdggeffefeeeegefeefedgefeecfgeddfedcdeddcfdddceccccgdccdededgeeddfeddceddccefdcceecccbccgedccccbbbbabaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound big_hatch_open
+{
+	minDistance	400
+	maxDistance	1200
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/floor_hatch/big_open
+	shakeData 0 bbiihjmyzxpwvqpmklgjjihihghijihdeeedeefcdcdcdcccbbbbcbbabaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound core_heavy_unlock
+{
+	minDistance	400
+	maxDistance	1200
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/default/heavy_unlock
+	shakeData 0 jmzxuzzzzztqrqsorooolkljkihggggeeeeeddcdcbcbbbbbbaabaaaaaaaaaaaaaa
+}
+
+
+sound waste_heavy_lock
+{
+	minDistance	400
+	maxDistance	1200
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/default/heavy_lock
+	shakeData 0 bcedcjutxzzzzxutrrrsvxvojlkkjkjgiigfideddeddebdbbbbbbbbbbbbabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+
+sound default_heavy_unlock
+{
+	minDistance	400
+	maxDistance	1200
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/default/heavy_unlock
+	shakeData 0 jmzxuzzzzztqrqsorooolkljkihggggeeeeeddcdcbcbbbbbbaabaaaaaaaaaaaaaa
+}
+
+
+sound default_heavy_lock
+{
+	minDistance	400
+	maxDistance	1200
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/default/heavy_lock
+	shakeData 0 bcedcjutxzzzzxutrrrsvxvojlkkjkjgiigfideddeddebdbbbbbbbbbbbbabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+}
+
+sound tram_gate_open
+{
+	minDistance	400
+	maxDistance	2500
+	volumeDb	0
+	no_occlusion
+
+	sound/doors/hangar_bay/open
+	shakeData 0 lmywyzyyxxyzywxzxvxtrsmnomjihgfeedccbbbbbaaaaaaaaaaaaaa
+}

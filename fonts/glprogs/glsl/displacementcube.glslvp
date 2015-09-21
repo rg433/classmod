@@ -1,0 +1,36 @@
+uniform vec4	EyeVector;
+
+uniform float scrollX, scrollY;
+uniform float sizeX, sizeY;
+
+varying vec2 	texCoord;
+varying vec2 	newTexCoord;
+varying vec4  	colorFragment;
+varying vec3  	vNormal;
+varying vec3  	vViewVec;
+
+void main(void)
+{
+    texCoord    	= gl_MultiTexCoord0.st;
+
+	// Moved linear computations to vertex shader
+    vec2    newSize = vec2( sizeX * 0.5 + 1.5, sizeY * 0.5 + 1.5 );
+    vec2    newScroll = vec2( scrollX, scrollY );
+   
+    newScroll *= 0.2;
+   
+    vec2   tempTexCoord = texCoord - vec2( 0.5, 0.5 );
+   
+    tempTexCoord *= newSize;
+    tempTexCoord += newScroll;
+   
+    newTexCoord = tempTexCoord + vec2( 0.5, 0.5 );
+
+
+	colorFragment 	= gl_Color;
+
+    gl_Position = ftransform();
+    
+    vNormal = gl_Normal;
+    vViewVec = EyeVector.xyz - gl_Vertex.xyz;
+}
